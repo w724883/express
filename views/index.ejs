@@ -1,0 +1,8 @@
+<% include common/header.ejs %>
+	<% if(user){ %>
+		<span><%=user.username %></span>
+		<a href="/logout">退出</a>
+	<% }else{ %>
+		<a href="/login">登录</a>
+	<% } %>
+<% include common/footer.ejs %>
