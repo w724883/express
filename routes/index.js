@@ -33,20 +33,25 @@ router.get('/logout', function(req, res, next) {
 });
 // list
 router.get('/list', function(req, res, next) {
-	List.find(null, function(err, obj){
+	var key = req.query.key;
+	key = key ? {$or:[{title:new RegExp(key)},{descriptions:new RegExp(key)}]} : null;
+	List.find(key, function(err, obj){
+		console.log(obj);
 		res.render('list', { list: obj, title: 'Express' });
 	});
 });
+
 // add
 router.get('/list/add', function(req, res, next) {
 	if(req.session.user){
-		return res.redirect('/');
-	}
-	res.render('add', { title: 'Express' });
+		res.render('add', { title: 'Express' });
+	}else{
+		res.redirect('/');
+
+	}	
 });
 router.post('/list/add', function(req, res, next) {
 	var json = req.body;
-	// console.log(json);
 	List.save(json, function(err){
 		if(err) {
 			res.send({'success':false,'err':err});

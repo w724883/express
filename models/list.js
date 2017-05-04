@@ -7,7 +7,6 @@ var ListSchema = new Schema({
 });
 var List = mongodb.model("list", ListSchema);
 var ListDAO = function(){};
-console.log(List);
 ListDAO.prototype.save = function(obj, callback) {
 	var instance = new List(obj);
 	instance.save(function(err){
@@ -15,8 +14,7 @@ ListDAO.prototype.save = function(obj, callback) {
 	});
 };
 ListDAO.prototype.find = function(query, callback) {
-	List.find({},function(err, obj){
-		console.log(obj);
+	List.find(query,function(err, obj){
 		callback(err, obj);
 	});
 };
