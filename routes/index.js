@@ -4,8 +4,8 @@ var List = require('../models/list');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   	
-  	List.find(function(err, obj){
-  		res.render('index', { list: obj, title: 'Express' });
+  	List.find(req,function(err, obj){
+  		res.render('index', { data: obj, title: 'Express' });
   	});
 });
 // login
@@ -36,11 +36,10 @@ router.get('/logout', function(req, res, next) {
 });
 // list
 router.get('/list', function(req, res, next) {
-	var key = req.query.key;
-	key = key ? {$or:[{title:new RegExp(key)},{descriptions:new RegExp(key)}]} : null;
-	List.find(key, function(err, obj){
+	
+	List.find(req, function(err, obj){
 		// console.log(obj);
-		res.render('list', { list: obj, title: 'Express' });
+		res.render('list', { data: obj, title: 'Express' });
 	});
 });
 

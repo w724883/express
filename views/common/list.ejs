@@ -1,8 +1,17 @@
 <ul>
-	<% list.forEach(function(item){ %>
+	<% data.list.forEach(function(item){ %>
 		<li>
 			<span><%=item.title %></span>
 			<p><%=item.descriptions %></p>
 		</li>
 	<% }) %>
 </ul>
+
+<% if(data.page > 1){ %>
+	<% var search = data.key ? "page="+(data.page*1-1)+"&key="+data.key : "page="+(data.page*1-1); %>
+	<a href="?<%=search%>">上一页</a>
+<% } %>
+<% if(data.list.length == data.num){ %>
+	<% var search = data.key ? "page="+(data.page*1+1)+"&key="+data.key : "page="+(data.page*1+1); %>
+	<a href="?<%=search%>">下一页</a>
+<% } %>
