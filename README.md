@@ -1,7 +1,14 @@
 # express
+
+## 安装
+
+npm install nodemon -g
+
+npm install
+
 ## 启动
 
-npm install && npm start
+npm start
 
 
 ## mongodb

@@ -1,10 +1,3 @@
 <% include common/header.ejs %>
-	<ul>
-		<% list.forEach(function(item){ %>
-			<li>
-				<span><%=item.title %></span>
-				<p><%=item.descriptions %></p>
-			</li>
-		<% }) %>
-	</ul>
+<% include common/list.ejs %>
 <% include common/footer.ejs %>

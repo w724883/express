@@ -3,7 +3,10 @@ var router = express.Router();
 var List = require('../models/list');
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  	res.render('index', { title: 'Express' });
+  	
+  	List.find(function(err, obj){
+  		res.render('index', { list: obj, title: 'Express' });
+  	});
 });
 // login
 router.get('/login', function(req, res, next) {
@@ -36,7 +39,7 @@ router.get('/list', function(req, res, next) {
 	var key = req.query.key;
 	key = key ? {$or:[{title:new RegExp(key)},{descriptions:new RegExp(key)}]} : null;
 	List.find(key, function(err, obj){
-		console.log(obj);
+		// console.log(obj);
 		res.render('list', { list: obj, title: 'Express' });
 	});
 });
