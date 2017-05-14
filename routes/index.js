@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var List = require('../models/list');
+var User = require('../models/user');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   	
@@ -17,18 +18,60 @@ router.get('/login', function(req, res, next) {
   	res.render('login', { title: 'Express' });
 });
 router.post('/login', function(req, res, next) {
-
-  	var user = {
-  		username:'admin',
-  		password:'admin'
-  	};
-  	if(req.body.username === user.username && req.body.password === user.password){
-  		req.session.user = user;
-  		return res.redirect('/');
-  	}else{
-  		req.session.message = '用户名或密码错误';
-  		return res.redirect('/login');
-  	}
+	var username = req.body.username;
+	var password = req.body.password;
+	if(username.trim() && password.trim()){
+		User.find(username,function(err, result){
+			if(result){
+				if(password === result.password){
+					req.session.user = {
+						username,
+						password:result.password
+					};
+					return res.redirect('/');
+				}else{
+					req.session.message = '用户名或密码错误';
+					return res.redirect('/login');
+				}
+			}else{
+				req.session.message = '您未注册';
+				return res.redirect('/register');
+			}
+		});
+	}else{
+		req.session.message = '请输入用户名或密码';
+		return res.redirect('/login');
+	}
+	
+});
+// register
+router.get('/register', function(req, res, next) {
+	if(req.session.user){
+		return res.redirect('/');
+	}
+	req.session.message = '';
+  	res.render('register', { title: 'Express' });
+});
+router.post('/register', function(req, res, next) {
+	var username = req.body.username;
+	var password = req.body.password;
+	if(username.trim() && password.trim()){
+		User.save(req.body, function(err){
+			if(err) {
+				res.send({'success':false,'err':err});
+			} else {
+				req.session.user = {
+					username,
+					password
+				};
+				res.redirect('/');
+			}
+		});
+	}else{
+		req.session.message = '用户名或密码不能为空';
+		return res.redirect('/register');
+	}
+	
 });
 router.get('/logout', function(req, res, next) {
 	req.session.user = null;
