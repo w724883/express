@@ -2,10 +2,13 @@ var express = require('express');
 var router = express.Router();
 var List = require('../models/list');
 var User = require('../models/user');
+var logger = require('../log4js/index').logger;
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  	
   	List.find(req,function(err, obj){
+  		if(err){
+			logger('index').error(err);
+  		}
   		res.render('index', { data: obj, title: 'Express' });
   	});
 });
@@ -37,6 +40,9 @@ router.post('/login', function(req, res, next) {
 				req.session.message = '您未注册';
 				return res.redirect('/register');
 			}
+	  		if(err){
+				logger('login').error(err);
+	  		}
 		});
 	}else{
 		req.session.message = '请输入用户名或密码';
@@ -59,6 +65,9 @@ router.post('/register', function(req, res, next) {
 		User.save(req.body, function(err){
 			if(err) {
 				res.send({'success':false,'err':err});
+		  		if(err){
+					logger('register').error(err);
+		  		}
 			} else {
 				req.session.user = {
 					username,
@@ -83,6 +92,9 @@ router.get('/list', function(req, res, next) {
 	List.find(req, function(err, obj){
 		// console.log(obj);
 		res.render('list', { data: obj, title: 'Express' });
+  		if(err){
+			logger('list').error(err);
+  		}
 	});
 });
 
@@ -100,6 +112,9 @@ router.post('/list/add', function(req, res, next) {
 	List.save(json, function(err){
 		if(err) {
 			res.send({'success':false,'err':err});
+	  		if(err){
+				logger('list/add').error(err);
+	  		}
 		} else {
 			res.redirect('/list');
 		}
