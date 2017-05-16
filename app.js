@@ -1,6 +1,7 @@
+var http = require('http');
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
+// var favicon = require('serve-favicon');
 // var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -9,9 +10,10 @@ var session = require('express-session');
 // var Store = require('connect-mongo')(session);
 // var log4js = require('log4js');
 var index = require('./routes/index');
-var logger = require('./log4js/index').logger;
+var logger = require('./src/log4js').logger;
 // console.log(logger)
 var app = express();
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -43,6 +45,8 @@ app.use('/', index);
 
 // 加载日志
 // app.use(log.log4js.connectLogger(log.logger(), {level:'auto', format:':method :url'}));
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

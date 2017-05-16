@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var List = require('../models/list');
 var User = require('../models/user');
-var logger = require('../log4js/index').logger;
+var logger = require('../src/log4js').logger;
 /* GET home page. */
 router.get('/', function(req, res, next) {
   	List.find(req,function(err, obj){
