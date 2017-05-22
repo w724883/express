@@ -1,0 +1,357 @@
+[2017-05-22 20:08:01.397] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:08:40.388] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:08:41.767] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:08:55.609] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:08:56.389] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:25.039] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:26.508] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:27.422] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:27.903] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:27.989] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:28.109] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:28.169] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:28.264] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:28.302] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:28.350] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:28.371] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }
+[2017-05-22 20:10:28.391] [ERROR] app - { TypeError: D:\www\test\express\views\index.ejs:1
+ >> 1| <% include common/header.ejs %>
+    2| 	<% if(user){ %>
+    3| 		<span>你好 <%=user.username %></span>
+    4| 		<a href="/logout">退出</a>
+
+esc is not a function
+    at rethrow (D:\www\test\express\node_modules\ejs\lib\ejs.js:285:18)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:22:9)
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:24:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:\www\test\express\routes\index.js:12:9
+    at D:\www\test\express\models\list.js:21:3
+    at D:\www\test\express\node_modules\mongoose\lib\query.js:2745:18
+    at process._tickCallback (internal/process/next_tick.js:103:7) path: 'D:\\www\\test\\express\\views\\index.ejs' }

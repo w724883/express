@@ -14,11 +14,11 @@ ListDAO.prototype.save = function(obj, callback) {
 	});
 };
 ListDAO.prototype.find = function(req, callback) {
-	var num = req.query.num || 5;
-	var page = req.query.page || 1;
+	var num = req.query.num*1 || 5;
+	var page = req.query.page*1 || 1;
 	var key = req.query.key;
 	List.find(key ? {$or:[{title:new RegExp(key)},{descriptions:new RegExp(key)}]} : null).sort({create_date:-1}).skip(num*(page-1)).limit(num).exec(function(err, obj){
-		callback(err, {list:obj,num,page,key});
+		callback(err, {data:obj,num,page,key});
 	});
 };
 

@@ -1,5 +1,9 @@
 # express
 
+> 项目架构express、mongodb、log4js（日志管理）、react、react-router、redux、服务端渲染
+
+> 所有包版本为2017.5.20的最新版本
+
 ## 安装
 
 npm install nodemon -g

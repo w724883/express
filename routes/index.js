@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
   		if(err){
 			logger('index').error(err);
   		}
-  		res.render('index', { data: obj, title: 'Express' });
+  		res.render('index', { data: obj});
   	});
 });
 // login
@@ -18,7 +18,7 @@ router.get('/login', function(req, res, next) {
 		return res.redirect('/');
 	}
 	req.session.message = '';
-  	res.render('login', { title: 'Express' });
+  	res.render('login');
 });
 router.post('/login', function(req, res, next) {
 	var username = req.body.username;
@@ -29,7 +29,6 @@ router.post('/login', function(req, res, next) {
 				if(password === result.password){
 					req.session.user = {
 						username,
-						password:result.password
 					};
 					return res.redirect('/');
 				}else{
@@ -56,7 +55,7 @@ router.get('/register', function(req, res, next) {
 		return res.redirect('/');
 	}
 	req.session.message = '';
-  	res.render('register', { title: 'Express' });
+  	res.render('register');
 });
 router.post('/register', function(req, res, next) {
 	var username = req.body.username;
@@ -71,7 +70,6 @@ router.post('/register', function(req, res, next) {
 			} else {
 				req.session.user = {
 					username,
-					password
 				};
 				res.redirect('/');
 			}
@@ -91,17 +89,19 @@ router.get('/list', function(req, res, next) {
 	
 	List.find(req, function(err, obj){
 		// console.log(obj);
-		res.render('list', { data: obj, title: 'Express' });
+		// res.render('list', { data: obj, title: 'Express' });
+		res.send({'error':0,'data':obj,'message':'success'});
   		if(err){
 			logger('list').error(err);
   		}
+  		res.end();
 	});
 });
 
 // add
 router.get('/list/add', function(req, res, next) {
 	if(req.session.user){
-		res.render('add', { title: 'Express' });
+		res.render('add');
 	}else{
 		res.redirect('/');
 
