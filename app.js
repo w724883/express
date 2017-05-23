@@ -1,3 +1,5 @@
+import routes from './routes';
+import {logger} from './src/log4js';
 var http = require('http');
 var express = require('express');
 var path = require('path');
@@ -9,11 +11,9 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 // var Store = require('connect-mongo')(session);
 // var log4js = require('log4js');
-var index = require('./routes/index');
-var logger = require('./src/log4js').logger;
+
 // console.log(logger)
 var app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -41,7 +41,7 @@ app.use(function(req, res, next) {
 });
 
 // 路由
-app.use('/', index);
+app.use('/', routes);
 
 // 加载日志
 // app.use(log.log4js.connectLogger(log.logger(), {level:'auto', format:':method :url'}));
@@ -68,4 +68,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+export default app;

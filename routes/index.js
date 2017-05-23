@@ -1,17 +1,41 @@
+import React from 'react';
+import ReactDOMServer from 'react-dom/server';
+import {StaticRouter} from 'react-router';
+import {logger} from '../src/log4js';
+import App from '../src/components/app';
+import Routes from '../src/routes';
+
 var express = require('express');
 var router = express.Router();
 var List = require('../models/list');
 var User = require('../models/user');
-var logger = require('../src/log4js').logger;
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  	List.find(req,function(err, obj){
-  		if(err){
-			logger('index').error(err);
-  		}
-  		res.render('index', { data: obj});
-  	});
+  	// List.find(req,function(err, obj){
+  	// 	if(err){
+			// logger('index').error(err);
+  	// 	}
+  	// 	res.render('index', { data: obj});
+  	// });
+
+  	const context = {}
+  	const markup = ReactDOMServer.renderToString(
+  		<App>
+  	  		<StaticRouter
+  	    		location={req.url}
+  	    		context={context}
+  	  		>
+  	    		<Routes />
+  	  		</StaticRouter>
+  	  	</App>
+  	);
+  	console.log(markup);
+  	res.send(markup);
 });
+
+
+
+
 // login
 router.get('/login', function(req, res, next) {
 	if(req.session.user){
@@ -121,4 +145,4 @@ router.post('/list/add', function(req, res, next) {
 	});
 	// res.redirect('/list');
 });
-module.exports = router;
+export default router;

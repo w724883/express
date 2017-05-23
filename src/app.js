@@ -24,32 +24,20 @@
 
 import React from 'react';
 import { render } from 'react-dom';
-import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Route } from 'react-router';
 import store from './store';
 
-import Index from './components/index';
+import Routes from './routes';
+import App from './components/app';
 // import 'babel-polyfill';
-// import { createStore } from 'redux';
-// import reducers from './reducers';
-// import { Router, browserHistory } from 'react-router';
-// import { syncHistoryWithStore } from 'react-router-redux';
-// const store = createStore(reducers);
-// const history = syncHistoryWithStore(browserHistory, store);
-store.subscribe(() => {
-	let _state = store.getState();
-	console.log(_state);
-});
-const routes = (
-	<Route>
-		<Route path="/" component={ Index } />
-	</Route>
-)
+
+
 render(
-    <Provider store={store}>
-        <Router routes={routes}></Router>
-    </Provider>,
+    <App>
+        <Router>
+        	<Routes />
+        </Router>
+    </App>,
     document.getElementById('app')
 );
 

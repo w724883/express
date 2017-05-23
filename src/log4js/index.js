@@ -1,4 +1,4 @@
-var log4js = require('log4js');
+import log4js from 'log4js';
 log4js.configure({
   appenders: [
     { type: 'console' },
@@ -14,8 +14,12 @@ log4js.configure({
   ],
   replaceConsole: true
 });
-exports.logger = function(name){
+export const logger = function(name){
   var logger = log4js.getLogger(name ? name : 'normal');
   return logger;
 }
-exports.log4js = log4js;
+
+
+export {
+  log4js
+}

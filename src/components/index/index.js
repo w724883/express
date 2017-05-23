@@ -1,9 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import * as actions from '../../actions';
 
 import List from '../list';
-import './index.scss';
+
+if(typeof __CLIENT__ != 'undefined'){
+	require('./index.scss');
+}
 
 class Index extends React.Component{
 	constructor(props) {
@@ -18,8 +20,8 @@ class Index extends React.Component{
 		);
 	}
 }
-
-export default connect((state) => ({state}))(Index);
+Index = connect((state) => ({state}))(Index);
+export default Index;
 
 // <% if(user){ %>
 // 	<span>你好 <%=user.username %></span>

@@ -4,10 +4,11 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var socket = require('../src/socket');
-var debug = require('debug')('express:server');
-var http = require('http');
+// var app = require('../app');
+import app from '../app';
+// var socket = require('../src/socket');
+import debug from 'debug';;
+import http from 'http';
 
 /**
  * Get port from environment and store in Express.
@@ -22,7 +23,7 @@ app.set('port', port);
 
 var server = http.createServer(app);
 
-socket(server);
+// socket(server);
 
 
 
@@ -91,5 +92,5 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+  debug('express:server')('Listening on ' + bind);
 }

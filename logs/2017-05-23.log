@@ -1,0 +1,342 @@
+[2017-05-23 14:35:58.959] [ERROR] app - ReferenceError: React is not defined
+    at D:/www/test/express/routes/index.js:20:6
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:40:3
+[2017-05-23 14:36:47.275] [ERROR] app - { Invariant Violation: Could not find "store" in either the context or props of "Connect(Index)". Either wrap the root component in a <Provider>, or explicitly pass "store" as a prop to "Connect(Index)".
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at new Connect (D:\www\test\express\node_modules\react-redux\lib\components\connectAdvanced.js:134:33)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 14:44:01.869] [ERROR] app - { Invariant Violation: Could not find "store" in either the context or props of "Connect(Index)". Either wrap the root component in a <Provider>, or explicitly pass "store" as a prop to "Connect(Index)".
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at new Connect (D:\www\test\express\node_modules\react-redux\lib\components\connectAdvanced.js:134:33)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:01:42.478] [ERROR] app - TypeError: Cannot read property 'route' of undefined
+    at Route.computeMatch (D:\www\test\express\node_modules\react-router\Route.js:68:22)
+    at new Route (D:\www\test\express\node_modules\react-router\Route.js:47:20)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:45:36
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20)
+    at renderToStringImpl (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:43:24)
+    at Object.renderToString (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:73:10)
+    at D:/www/test/express/routes/index.js:20:34
+[2017-05-23 15:04:53.653] [INFO] console - <div data-reactroot="" data-reactid="1" data-react-checksum="1998851930"></div>
+[2017-05-23 15:05:02.011] [INFO] console - <div data-reactroot="" data-reactid="1" data-react-checksum="1998851930"></div>
+[2017-05-23 15:07:15.332] [ERROR] app - { Invariant Violation: Could not find "store" in either the context or props of "Connect(Index)". Either wrap the root component in a <Provider>, or explicitly pass "store" as a prop to "Connect(Index)".
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at new Connect (D:\www\test\express\node_modules\react-redux\lib\components\connectAdvanced.js:134:33)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:13:22.014] [ERROR] app - ReferenceError: store is not defined
+    at App (D:/www/test/express/src/components/app.js:8:19)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:306:16
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:305:14)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:45:36
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20)
+    at renderToStringImpl (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:43:24)
+[2017-05-23 15:15:54.944] [ERROR] app - { Invariant Violation: Browser history needs a DOM
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at createBrowserHistory (D:\www\test\express\node_modules\history\createBrowserHistory.js:49:27)
+    at new BrowserRouter (D:\www\test\express\node_modules\react-router-dom\BrowserRouter.js:42:198)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:17:12.055] [ERROR] app - { Invariant Violation: Browser history needs a DOM
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at createBrowserHistory (D:\www\test\express\node_modules\history\createBrowserHistory.js:49:27)
+    at new BrowserRouter (D:\www\test\express\node_modules\react-router-dom\BrowserRouter.js:42:198)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:17:16.963] [ERROR] app - { Invariant Violation: Browser history needs a DOM
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at createBrowserHistory (D:\www\test\express\node_modules\history\createBrowserHistory.js:49:27)
+    at new BrowserRouter (D:\www\test\express\node_modules\react-router-dom\BrowserRouter.js:42:198)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:28:48.784] [ERROR] app - { Invariant Violation: Browser history needs a DOM
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at createBrowserHistory (D:\www\test\express\node_modules\history\createBrowserHistory.js:49:27)
+    at new BrowserRouter (D:\www\test\express\node_modules\react-router-dom\BrowserRouter.js:42:198)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:34:41.773] [ERROR] app - { Invariant Violation: Browser history needs a DOM
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at createBrowserHistory (D:\www\test\express\node_modules\history\createBrowserHistory.js:49:27)
+    at new BrowserRouter (D:\www\test\express\node_modules\react-router-dom\BrowserRouter.js:42:198)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:34:44.802] [ERROR] app - { Invariant Violation: Browser history needs a DOM
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at createBrowserHistory (D:\www\test\express\node_modules\history\createBrowserHistory.js:49:27)
+    at new BrowserRouter (D:\www\test\express\node_modules\react-router-dom\BrowserRouter.js:42:198)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:36:43.769] [ERROR] app - { Invariant Violation: Browser history needs a DOM
+    at invariant (D:\www\test\express\node_modules\invariant\invariant.js:42:15)
+    at createBrowserHistory (D:\www\test\express\node_modules\history\createBrowserHistory.js:49:27)
+    at new BrowserRouter (D:\www\test\express\node_modules\react-router-dom\BrowserRouter.js:42:198)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:295:18
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:294:16)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 15:51:28.245] [INFO] console - <div class="index" data-reactroot="" data-reactid="1" data-react-checksum="-1806689617"><!-- react-empty: 2 --></div>
+[2017-05-23 16:12:05.127] [ERROR] console - Warning: React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: object.
+[2017-05-23 16:12:05.143] [ERROR] console - Warning: React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in.
+[2017-05-23 16:12:05.153] [ERROR] app - { Invariant Violation: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in.
+    at invariant (D:\www\test\express\node_modules\fbjs\lib\invariant.js:44:15)
+    at instantiateReactComponent (D:\www\test\express\node_modules\react-dom\lib\instantiateReactComponent.js:74:56)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:44:31
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20)
+    at renderToStringImpl (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:43:24)
+    at Object.renderToString (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:73:10)
+    at D:/www/test/express/routes/index.js:22:34
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 16:13:14.939] [ERROR] console - Warning: React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: object.
+[2017-05-23 16:13:14.955] [ERROR] app - { Invariant Violation: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.
+    at invariant (D:\www\test\express\node_modules\fbjs\lib\invariant.js:44:15)
+    at instantiateReactComponent [as _instantiateReactComponent] (D:\www\test\express\node_modules\react-dom\lib\instantiateReactComponent.js:74:56)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:367:22)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at ReactCompositeComponent.performInitialMount (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:371:34)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:258:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:45:36
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20) name: 'Invariant Violation', framesToPop: 1 }
+[2017-05-23 16:14:38.557] [INFO] console - <div class="index" data-reactroot="" data-reactid="1" data-react-checksum="-1806689617"><!-- react-empty: 2 --></div>
+[2017-05-23 16:15:39.714] [ERROR] app - TypeError: Cannot read property 'props' of undefined
+    at exports.default (D:/www/test/express/src/components/app.js:11:7)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:306:16
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:305:14)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:45:36
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20)
+    at renderToStringImpl (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:43:24)
+    at Object.renderToString (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:73:10)
+    at D:/www/test/express/routes/index.js:22:34
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+[2017-05-23 16:17:03.610] [ERROR] app - TypeError: Cannot read property 'props' of undefined
+    at exports.default (D:/www/test/express/src/components/app.js:12:8)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:306:16
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:305:14)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:45:36
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20)
+    at renderToStringImpl (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:43:24)
+    at Object.renderToString (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:73:10)
+    at D:/www/test/express/routes/index.js:22:34
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+[2017-05-23 16:34:16.515] [ERROR] app - TypeError: Cannot call a class as a function
+    at _classCallCheck (D:\www\test\express\src\components\app.js:23:99)
+    at _class (D:\www\test\express\src\components\app.js:32:3)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:306:16
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:305:14)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:45:36
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20)
+    at renderToStringImpl (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:43:24)
+    at Object.renderToString (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:73:10)
+    at D:/www/test/express/routes/index.js:22:34
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+[2017-05-23 16:34:39.665] [ERROR] app - TypeError: Cannot call a class as a function
+    at _classCallCheck (D:\www\test\express\src\components\app.js:23:99)
+    at App (D:\www\test\express\src\components\app.js:32:3)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:306:16
+    at measureLifeCyclePerf (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:75:12)
+    at ReactCompositeComponent._constructComponentWithoutOwner (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:305:14)
+    at ReactCompositeComponent._constructComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:280:21)
+    at ReactCompositeComponent.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactCompositeComponent.js:188:21)
+    at Object.ReactReconciler.mountComponent (D:\www\test\express\node_modules\react-dom\lib\ReactReconciler.js:46:35)
+    at D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:45:36
+    at ReactServerRenderingTransaction.TransactionImpl.perform (D:\www\test\express\node_modules\react-dom\lib\Transaction.js:140:20)
+    at renderToStringImpl (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:43:24)
+    at Object.renderToString (D:\www\test\express\node_modules\react-dom\lib\ReactServerRendering.js:73:10)
+    at D:/www/test/express/routes/index.js:22:34
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+[2017-05-23 16:38:09.755] [INFO] console - <div class="index" data-reactroot="" data-reactid="1" data-react-checksum="-1806689617"><!-- react-empty: 2 --></div>
+[2017-05-23 16:38:09.902] [INFO] console - { list: 
+   { data: [ [Object], [Object], [Object], [Object], [Object] ],
+     num: 5,
+     page: 1 },
+  routing: { locationBeforeTransitions: null } }
+[2017-05-23 16:38:14.390] [INFO] console - <div class="index" data-reactroot="" data-reactid="1" data-react-checksum="-2085967815"><div class="list" data-reactid="2"><ul data-reactid="3"><li data-reactid="4"><span data-reactid="5">xss</span><p data-reactid="6">&lt;/p&gt;&lt;javascript&gt;console.log(&#x27;xss&#x27;)&lt;/javascript&gt;&lt;p&gt;</p></li><li data-reactid="7"><span data-reactid="8">xss</span><p data-reactid="9">&lt;/p&gt;&lt;javascript&gt;console.log(&#x27;xss&#x27;)&lt;/javascript&gt;</p></li><li data-reactid="10"><span data-reactid="11">xss</span><p data-reactid="12">&lt;javascript&gt;console.log(&#x27;xss&#x27;)&lt;/javascript&gt;</p></li><li data-reactid="13"><span data-reactid="14">xss</span><p data-reactid="15">&lt;script&gt;console.log(&#x27;xss&#x27;)&lt;/script&gt;</p></li><li data-reactid="16"><span data-reactid="17">tests</span><p data-reactid="18">suq;</p></li></ul><div class="page" data-reactid="19"><button disabled="" data-reactid="20">上一页</button><button data-reactid="21">下一页</button></div></div></div>
+[2017-05-23 16:38:14.453] [INFO] console - { list: 
+   { data: [ [Object], [Object], [Object], [Object], [Object] ],
+     num: 5,
+     page: 1 },
+  routing: { locationBeforeTransitions: null } }
