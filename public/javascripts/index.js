@@ -7487,7 +7487,7 @@ if (process.env.NODE_ENV !== 'production' && typeof isCrushed.name === 'string' 
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-exports.setLoading = exports.fetchList = undefined;
+exports.setSession = exports.fetchList = undefined;
 
 var _isomorphicFetch = __webpack_require__(137);
 
@@ -7514,6 +7514,7 @@ var fetchList = exports.fetchList = function fetchList(params) {
 
 				// 	data = list ? list.concat(data) : data;
 				// }
+
 				if (data.num) {
 					return dispatch({
 						type: 'SET_LIST',
@@ -7528,10 +7529,10 @@ var fetchList = exports.fetchList = function fetchList(params) {
 		});
 	};
 };
-var setLoading = exports.setLoading = function setLoading(data) {
+var setSession = exports.setSession = function setSession(data) {
 	return function (dispatch) {
 		return dispatch({
-			type: 'SET_LOADING',
+			type: 'SET_SESSION',
 			data: data
 		});
 	};
@@ -12121,6 +12122,12 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(38);
 
+var _reactRouterDom = __webpack_require__(114);
+
+var _isomorphicFetch = __webpack_require__(137);
+
+var _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);
+
 var _list = __webpack_require__(116);
 
 var _list2 = _interopRequireDefault(_list);
@@ -12135,6 +12142,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 if (true) {
 	__webpack_require__(119);
+	// require('../../../public/javascripts/libs/zepto.min.js');
 }
 
 var Index = function (_React$Component) {
@@ -12145,15 +12153,75 @@ var Index = function (_React$Component) {
 
 		return _possibleConstructorReturn(this, (Index.__proto__ || Object.getPrototypeOf(Index)).call(this, props));
 	}
+	// handle(){
+	// fetch('http://open.duer.baidu.com/openduer/main/header',{
+	// 	mode:"cors",
+	// 	credentials: 'include',
+	// 	headers:{
+	// 		"Cookie":"BAIDUID=5831F61DB24679E7FB74D9E87565EE66:FG=1; PSTM=1493227298; BIDUPSID=26E6EFE61D37CA2E40FD52F4B8D3A0D8; Hm_lvt_d300619958c1246b4f17c7792229399c=1493383978; Hm_lpvt_d300619958c1246b4f17c7792229399c=1493383978; H_WISE_SIDS=101556_110136_115444_113499_115242_103342_115311_115899_107318_115340_115577_115245_115703_115701_115279_114797_115934_115534_115446_114329_115351_115032_114275_115863_110085_114568; BDSFRCVID=AbksJeC62mjDC2jZLTiRu8KO5dYJKb3TH6aoMC7dLMmywno7CjHtEG0Pqf8g0Ku-amNWogKK0mOTHvbP; H_BDCLCKID_SF=tRk8oDKhJCvbfP0k-tT85tP8qxby26nTKK3eaJ5n0-nnhp3_5lQADU4jhRnHa4RwJbn0hU7FKKnDMP0Ry6CajTcXjHLtqbbfb-oKWJca2bK_Hn7zeToh0btpbtbmhU-e32QqbxFbBbnAHR5dDRj-j-FRBP62qPDfbb7ZVDL2fC-bhKIr5nJbq4FVbfrhK46MHD7yWCvpKJv5OR5Jj65VMx0dDx6zWp30LjIOahAa5UTkOn_R3MA--t4ILNJbWUrLM6vXWK3n2qnMsq0x0bQte-bQyp_L54rwQKOMahkMal7xO-QP056jK4JKDN8tt6JP; Hm_lvt_d263a1c4005872c9ecef7d98eaa42d0e=1493383961,1494836023; Hm_lpvt_d263a1c4005872c9ecef7d98eaa42d0e=1494836023; MCITY=-131%3A; BDUSS=VMZmppQUFpempveUk4NnJjazM2RC14U2haTU1DTTAzOUpEdXVCRWNuS3NTa3BaSVFBQUFBJCQAAAAAAAAAAAEAAAC05BkUs~XAtLvYsrvIpQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKy9IlmsvSJZa3; Hm_lvt_15435005fb2d0ece899f13e3a2fdfb96=1494494255; Hm_lpvt_15435005fb2d0ece899f13e3a2fdfb96=1495616316; BDRCVFR[feWj1Vr5u3D]=I67x6TjHwwYf0; PSINO=2; H_PS_PSSID=1463_21105_17001_22158; BDORZ=B490B5EBF6F3CD402E515D22BCDA1598"
+	// 	}
+	// }).then((json) => {
+	// 	console.log(json);
+	// });
+	// 	$.ajax({
+	// 		url: 'http://open.duer.baidu.com/openduer/main/header',
+	// 		type: 'GET',
+	// 		dataType: 'jsonp'
+	// 	}).done(function(res){
+	// 		console.log(res);
+	// 	}).fail(function (err) {
+	// 		throw new Error(err);
+	// 	});
+	// }
+
 
 	_createClass(Index, [{
 		key: 'render',
 		value: function render() {
-			var state = this.props.state;
+			var session = this.props.state.session;
 
 			return _react2.default.createElement(
 				'div',
 				{ className: 'index' },
+				session.user ? _react2.default.createElement(
+					'span',
+					null,
+					'\u4F60\u597D ',
+					session.user.username,
+					_react2.default.createElement(
+						'a',
+						{ href: '/logout' },
+						'\u9000\u51FA'
+					)
+				) : _react2.default.createElement(
+					'p',
+					null,
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ to: '/login' },
+						'\u767B\u5F55'
+					),
+					_react2.default.createElement(
+						'a',
+						{ href: '/register' },
+						'\u6CE8\u518C'
+					)
+				),
+				_react2.default.createElement(
+					'form',
+					{ action: '/list', method: 'get' },
+					_react2.default.createElement('input', { type: 'search', name: 'key' }),
+					_react2.default.createElement(
+						'button',
+						null,
+						'\u641C\u7D22'
+					)
+				),
+				session.user ? _react2.default.createElement(
+					'a',
+					{ href: '/list/add' },
+					'\u6DFB\u52A0'
+				) : null,
 				_react2.default.createElement(_list2.default, null)
 			);
 		}
@@ -12162,22 +12230,9 @@ var Index = function (_React$Component) {
 	return Index;
 }(_react2.default.Component);
 
-Index = (0, _reactRedux.connect)(function (state) {
+exports.default = (0, _reactRedux.connect)(function (state) {
 	return { state: state };
 })(Index);
-exports.default = Index;
-
-// <% if(user){ %>
-// 	<span>你好 <%=user.username %></span>
-// 	<a href="/logout">退出</a>
-// <% }else{ %>
-// 	<a href="/login">登录</a>
-// 	<a href="/register">注册</a>
-// <% } %>
-// <form action="/list" method="get"><input type="search" name="key" /><button>搜索</button></form>
-// <% if(user){ %>
-// 	<a href="/list/add">添加</a>
-// <% } %>
 
 /***/ }),
 /* 112 */
@@ -12406,11 +12461,10 @@ var List = function (_React$Component) {
 
 			Promise.all([dispatch(actions.fetchList("page=" + this.page))]);
 		}
-	}, {
-		key: 'componentWillMount',
-		value: function componentWillMount() {
-			this.handleGetData.call(this);
-		}
+		// componentWillMount() {
+		// 	this.handleGetData.call(this);
+		// }
+
 	}, {
 		key: 'render',
 		value: function render() {
@@ -12506,9 +12560,20 @@ var list = function list() {
 			return state;
 	}
 };
+var session = function session() {
+	var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+	var action = arguments[1];
 
+	switch (action.type) {
+		case 'SET_SESSION':
+			return action.data;break;
+		default:
+			return state;
+	}
+};
 exports.default = (0, _redux.combineReducers)({
 	list: list,
+	session: session,
 	routing: _reactRouterRedux.routerReducer
 });
 
@@ -28717,13 +28782,18 @@ var _index = __webpack_require__(111);
 
 var _index2 = _interopRequireDefault(_index);
 
+var _login = __webpack_require__(280);
+
+var _login2 = _interopRequireDefault(_login);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
 	return _react2.default.createElement(
-		_reactRouter.Route,
+		'div',
 		null,
-		_react2.default.createElement(_reactRouter.Route, { path: '/', component: _index2.default })
+		_react2.default.createElement(_reactRouter.Route, { exact: true, path: '/', component: _index2.default }),
+		_react2.default.createElement(_reactRouter.Route, { path: '/login', component: _login2.default })
 	);
 };
 
@@ -28762,7 +28832,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 _store2.default.subscribe(function () {
 	var _state = _store2.default.getState();
-	console.log(_state);
+	// console.log(_state);
 });
 
 var App = function (_React$Component) {
@@ -28789,6 +28859,82 @@ var App = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = App;
+
+/***/ }),
+/* 280 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(38);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Login = function (_React$Component) {
+	_inherits(Login, _React$Component);
+
+	function Login() {
+		_classCallCheck(this, Login);
+
+		return _possibleConstructorReturn(this, (Login.__proto__ || Object.getPrototypeOf(Login)).apply(this, arguments));
+	}
+
+	_createClass(Login, [{
+		key: 'render',
+		value: function render() {
+			var session = this.props.state.session;
+
+			return _react2.default.createElement(
+				'div',
+				{ className: 'login' },
+				_react2.default.createElement(
+					'form',
+					{ action: '/login', method: 'post' },
+					_react2.default.createElement(
+						'p',
+						null,
+						'\u7528\u6237\u540D\uFF1A',
+						_react2.default.createElement('input', { type: 'text', name: 'username' })
+					),
+					_react2.default.createElement(
+						'p',
+						null,
+						'\u5BC6\u7801\uFF1A',
+						_react2.default.createElement('input', { type: 'password', name: 'password' })
+					),
+					_react2.default.createElement(
+						'button',
+						{ type: 'submit' },
+						'\u767B\u9646'
+					)
+				)
+			);
+		}
+	}]);
+
+	return Login;
+}(_react2.default.Component);
+
+exports.default = (0, _reactRedux.connect)(function (state) {
+	return { state: state };
+})(Login);
 
 /***/ })
 /******/ ]);

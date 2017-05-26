@@ -37,6 +37,7 @@ app.use(session({
 app.use(function(req, res, next) {
   res.locals.user = req.session.user;
   res.locals.message = req.session.message;
+  // console.log(res.locals);
   next();
 });
 

@@ -4,7 +4,8 @@ import {StaticRouter} from 'react-router';
 import {logger} from '../src/log4js';
 import App from '../src/components/app';
 import Routes from '../src/routes';
-
+import store from '../src/store';
+import * as actions from '../src/actions';
 var express = require('express');
 var router = express.Router();
 var List = require('../models/list');
@@ -17,20 +18,34 @@ router.get('/', function(req, res, next) {
   	// 	}
   	// 	res.render('index', { data: obj});
   	// });
+  	store.dispatch(actions.setSession(req.session));
+	Promise.all([
+	  store.dispatch(actions.fetchList("page=1"))
+	]).then(() => {
+	  	const context = {}
+	  	const markup = ReactDOMServer.renderToString(
+	  		<App>
+	  	  		<StaticRouter
+	  	    		location={req.url}
+	  	    		context={context}
+	  	  		>
+	  	    		<Routes />
+	  	  		</StaticRouter>
+	  	  	</App>
+	  	);
+	  	if (context.url) {
+		    res.writeHead(301, {
+		      Location: context.url
+		    })
+		    res.end();
+	  	} else {
+		    res.render('index', { data: markup, store:JSON.stringify(store.getState())});
+		    res.end();
+	  	}
+	});
 
-  	const context = {}
-  	const markup = ReactDOMServer.renderToString(
-  		<App>
-  	  		<StaticRouter
-  	    		location={req.url}
-  	    		context={context}
-  	  		>
-  	    		<Routes />
-  	  		</StaticRouter>
-  	  	</App>
-  	);
-  	console.log(markup);
-  	res.send(markup);
+  	
+  	// res.render('index', { data: markup, store:'1'});
 });
 
 

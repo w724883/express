@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import store from '../store';
 store.subscribe(() => {
 	let _state = store.getState();
-	console.log(_state);
+	// console.log(_state);
 });
 
 

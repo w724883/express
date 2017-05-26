@@ -2,20 +2,12 @@
 <html>
 	<head>
     	<title></title>
+
   	</head>
   	<body>
-	<% if(user){ %>
-		<span>你好 <%=user.username %></span>
-		<a href="/logout">退出</a>
-	<% }else{ %>
-		<a href="/login">登录</a>
-		<a href="/register">注册</a>
-	<% } %>
-	<form action="/list" method="get"><input type="search" name="key" /><button>搜索</button></form>
-	<% if(user){ %>
-		<a href="/list/add">添加</a>
-	<% } %>
 	
-	<div id="app"></div>
+	
+	<div id="app"><%-data%></div>
+	<script type="text/javascript">window.__store = <%-store%></script>
 	</body>
 </html>

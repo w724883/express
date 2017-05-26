@@ -9,9 +9,17 @@ const list = (state = {}, action) => {
       		return state;
 	}
 }
-
+const session = (state = {}, action) => {
+	switch (action.type) {
+		case 'SET_SESSION':
+			return action.data;break;
+		default:
+      		return state;
+	}
+}
 export default combineReducers({
 	list,
+	session,
 	routing: routerReducer
 });
 

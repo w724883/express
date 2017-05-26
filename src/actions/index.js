@@ -15,6 +15,7 @@ export const fetchList = (params) => {
 					
 				// 	data = list ? list.concat(data) : data;
 				// }
+
 				if(data.num){
 					return dispatch({
 				    	type: 'SET_LIST',
@@ -31,10 +32,10 @@ export const fetchList = (params) => {
 		});
 	}
 }
-export const setLoading = (data) => {
+export const setSession = (data) => {
 	return (dispatch) => {
 		return dispatch({
-	    	type: 'SET_LOADING',
+	    	type: 'SET_SESSION',
 	    	data: data
 	  	});
 	}

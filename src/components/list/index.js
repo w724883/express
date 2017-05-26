@@ -23,9 +23,9 @@ class List extends React.Component{
 		  	dispatch(actions.fetchList("page="+this.page))
 		]);
 	}
-	componentWillMount() {
-		this.handleGetData.call(this);
-	}
+	// componentWillMount() {
+	// 	this.handleGetData.call(this);
+	// }
 	render(){
 		let {list} = this.props.state;
 		return list.data && list.data.length ? (
