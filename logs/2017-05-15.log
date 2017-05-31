@@ -1,1 +1,0 @@
-[2017-05-15 23:23:11.261] [ERROR] console - (node:8424) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html

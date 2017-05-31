@@ -11,7 +11,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 // var Store = require('connect-mongo')(session);
 // var log4js = require('log4js');
-
+var FileStore = require('session-file-store')(session);
 // console.log(logger)
 var app = express();
 // view engine setup
@@ -23,21 +23,23 @@ app.set('view engine', 'ejs');
 // app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
+app.use(cookieParser('session'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // session中间件配置
 app.use(session({
-  secret: 'keyboard cat',
+  secret: 'session',
   resave: false,
-  saveUninitialized: true
+  saveUninitialized: false,
+  store: new FileStore(),
+  cookie: {
+    maxAge: 100 * 1000
+  }
 }));
 
 // session赋值
 app.use(function(req, res, next) {
-  res.locals.user = req.session.user;
-  res.locals.message = req.session.message;
-  // console.log(res.locals);
+  console.log(req.session);
   next();
 });
 

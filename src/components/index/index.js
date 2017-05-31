@@ -38,7 +38,7 @@ class Index extends React.Component{
 		return (
 			<div className="index">
 				{
-					session.user ? <span>你好 {session.user.username}<a href="/logout">退出</a></span> : <p><Link to="/login">登录</Link><a href="/register">注册</a></p>
+					session.user ? <span>你好 {session.user.username}<a href="/logout">退出</a></span> : <p><Link to="/login">登录</Link><Link to="/register">注册</Link></p>
 				}
 
 				<form action="/list" method="get"><input type="search" name="key" /><button>搜索</button></form>

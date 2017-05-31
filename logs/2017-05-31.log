@@ -1,0 +1,2651 @@
+[2017-05-31 10:54:50.277] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:40:00.763] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:40:07.714] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-05-31 11:40:07.734] [ERROR] app - { ReferenceError: D:\www\test\express\views\login.ejs:2
+    1| 	<form action="/login" method="post">
+ >> 2| 		<%if(message){ %>
+    3| 			<span><%=message %></span>
+    4| 		<% } %>
+    5| 		
+
+message is not defined
+    at eval (eval at <anonymous> (D:\www\test\express\node_modules\ejs\lib\ejs.js:524:12), <anonymous>:11:10)
+    at returnedFn (D:\www\test\express\node_modules\ejs\lib\ejs.js:555:17)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:203:34)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:/www/test/express/routes/index.js:33:6
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10) path: 'D:\\www\\test\\express\\views\\login.ejs' }
+[2017-05-31 11:40:31.432] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-05-31 11:41:29.427] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:41:32.442] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-05-31 11:41:38.277] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:41:49.101] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:41:57.837] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:46:07.186] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:46:08.309] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-05-31 11:46:08.589] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:46:09.897] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:46:11.085] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:46:13.033] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:46:15.049] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:46:20.661] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:46:27.611] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 11:48:23.381] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:48:32.380] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:49:01.085] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:49:06.138] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 11:49:17.241] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-05-31 11:49:18.300] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-05-31 11:49:25.755] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+[2017-05-31 12:05:53.687] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:05:58.328] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:06:29.056] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:06:30.667] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:08:10.666Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:06:33.142] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:08:10.688Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 12:06:34.734] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:08:13.159Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 12:06:36.857] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:08:14.777Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 12:07:02.360] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:08:16.870Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 12:07:24.885] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:08:14.469] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:08:23.520] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:08:29.664] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:10:09.663Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:08:29.670] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:33:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:42:3
+[2017-05-31 12:08:30.834] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:10:10.833Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:08:30.841] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:33:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:42:3
+[2017-05-31 12:08:31.738] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:10:11.738Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:08:31.760] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:33:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:42:3
+[2017-05-31 12:09:14.538] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:10:54.538Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:09:14.549] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:33:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:42:3
+[2017-05-31 12:10:43.627] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:10:52.161] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:12:32.160Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:10:52.179] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:33:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:42:3
+[2017-05-31 12:11:12.925] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:12:52.924Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:11:16.606] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:12:56.606Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:11:21.641] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:13:01.640Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:11:21.657] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:33:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:42:3
+[2017-05-31 12:12:43.249] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 12:12:44.517] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:14:24.516Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:12:44.656] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:14:24.656Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:12:46.257] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:14:26.257Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:12:48.380] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:14:28.380Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:12:53.091] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:14:33.091Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:12:57.203] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:14:37.203Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:16:16.023] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:17:56.023Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:16:16.057] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T04:17:56.057Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 12:17:02.093] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:23:06.721] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:23:08.011] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:24:48.010Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:23:08.706] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:24:48.706Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:23:14.749] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:24:54.749Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:23:17.972] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:24:57.972Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:23:53.959] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:24:10.044] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:24:12.920] [INFO] console - req.session
+[2017-05-31 13:24:24.347] [INFO] console - req.session
+[2017-05-31 13:24:24.349] [INFO] console - 1
+[2017-05-31 13:24:48.774] [INFO] console - req.session
+[2017-05-31 13:24:48.778] [INFO] console - 1
+[2017-05-31 13:26:34.949] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:26:38.665] [INFO] console - req.session
+[2017-05-31 13:26:50.683] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:26:54.390] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:28:34.390Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:27:04.434] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:28:44.433Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:27:04.443] [ERROR] app - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+    at ServerResponse.header (D:\www\test\express\node_modules\express\lib\response.js:725:10)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\www\test\express\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:158:21)
+    at D:/www/test/express/routes/index.js:55:7
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+[2017-05-31 13:27:04.495] [ERROR] console - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+    at ServerResponse.header (D:\www\test\express\node_modules\express\lib\response.js:725:10)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:170:12)
+    at done (D:\www\test\express\node_modules\express\lib\response.js:962:10)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:208:10)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:/www/test/express/app.js:70:7
+    at Layer.handle_error (D:\www\test\express\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:315:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+[2017-05-31 13:27:50.826] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:28:06.905] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:29:46.904Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:28:11.829] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:29:51.829Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:28:32.185] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:30:12.185Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:28:32.217] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:30:12.217Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:30:53.504] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:31:06.251] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:31:36.503] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:32:09.910] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:33:44.176] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:33:45.236] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:35:25.235Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:33:46.395] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:35:26.395Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:33:55.152] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:35:35.152Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:34:04.925] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:35:35.156Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:34:14.510] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:35:44.946Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:34:43.181] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:34:44.375] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:24.375Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:34:44.411] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:24.411Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:34:45.697] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:25.697Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:34:48.170] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:28.170Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:34:56.479] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:36.479Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:35:04.281] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:36.487Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:35:08.782] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:44.293Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:35:08.808] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:48.808Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:35:13.269] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:48.855Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:35:13.354] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:53.354Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:35:18.922] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:53.382Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:35:18.939] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:58.939Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:35:29.246] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:36:58.970Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:35:29.260] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:37:09.260Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:35:33.029] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:37:09.284Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:35:33.041] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:37:13.041Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:36:14.764] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:36:21.004] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:38:01.003Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:36:21.910] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:38:01.058Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:36:23.925] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:38:01.929Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:36:30.385] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:38:03.949Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:36:40.197] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:38:10.425Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:36:40.224] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:38:20.224Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:39:34.449] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:39:37.451] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:41:17.450Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:39:38.172] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:41:17.497Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:39:40.178] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:41:18.193Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:40:15.581] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:40:17.080] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:41:57.078Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:40:17.827] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:41:57.827Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:40:26.974] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:42:06.974Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:40:41.896] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:42:21.896Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:40:46.365] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:42:26.365Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:40:46.402] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:42:26.402Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:41:51.041] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:44:17.767] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:44:22.923] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:02.922Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:44:23.626] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:03.626Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:44:25.016] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:05.016Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:44:27.386] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:05.028Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:44:27.414] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:07.414Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:44:29.242] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:07.454Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:44:35.905] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:09.271Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:44:37.898] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:15.926Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:44:41.642] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:17.910Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:44:46.974] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:21.666Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:46:04.310] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:46:26.983Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:46:27.531] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:46:29.622] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:48:09.620Z,
+     originalMaxAge: 99999,
+     httpOnly: true } }
+[2017-05-31 13:46:34.780] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:48:14.779Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:46:51.499] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:48:31.499Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:46:51.527] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:48:31.527Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:46:54.196] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:48:34.196Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:46:54.228] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:48:34.228Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:46:56.170] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:48:36.170Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:52:00.705] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:53:11.109] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:54:51.108Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:53:13.193] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:54:53.192Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:53:13.217] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:54:53.206Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111' }
+[2017-05-31 13:53:13.231] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:54:53.231Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:53:44.226] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:53:49.438] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:55:29.436Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:53:50.082] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:55:30.082Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:53:54.080] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:55:34.080Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:53:56.019] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:55:36.018Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:54:43.702] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:54:45.020] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:56:25.019Z,
+     originalMaxAge: 99999,
+     httpOnly: true } }
+[2017-05-31 13:54:45.713] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:56:25.713Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:54:47.544] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:56:27.544Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:54:57.592] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:56:37.592Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:21.253] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:01.253Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:21.276] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:01.276Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:24.204] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:04.204Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:25.686] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:05.686Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:34.104] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 13:55:35.182] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:15.181Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:36.571] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:16.571Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:39.324] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:19.324Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:39.350] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:19.350Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:39.365] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:19.365Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:50.277] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:30.277Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:50.289] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:30.289Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:52.293] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:32.292Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:55:53.828] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T05:57:33.828Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 13:58:03.643] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:01:28.575] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:03:08.574Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:01:46.136] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:03:26.136Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:01:46.152] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:03:26.152Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:01:46.166] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:03:26.166Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:31:59.220] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:32:14.195] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:32:31.385] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:33:05.102] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:33:29.640] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:35:09.639Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:34:01.204] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:34:14.274] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:34:15.479] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:35:55.477Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:34:17.490] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:35:57.490Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:34:20.550] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:36:00.550Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:34:27.595] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:36:07.595Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:34:30.649] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:34:48.746] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:36:28.745Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:34:48.782] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:36:28.781Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:35:32.527] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:35:33.855] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:37:13.853Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:35:35.948] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:37:15.948Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:35:40.114] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:37:20.114Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:35:43.230] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:36:14.765] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:37:20.118Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212540118 }
+[2017-05-31 14:36:18.112] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:36:32.718] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:37:54.776Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212574777 }
+[2017-05-31 14:36:36.104] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:38:38.034] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:40:18.033Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:38:54.756] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:40:34.756Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:39:09.756] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:40:49.755Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:39:13.105] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:39:18.432] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:40:49.759Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212749760 }
+[2017-05-31 14:39:21.615] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:39:25.416] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:40:58.456Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212758456 }
+[2017-05-31 14:39:28.541] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:39:38.038] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:41:05.443Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212765444 }
+[2017-05-31 14:39:41.158] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:39:42.938] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:41:18.068Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212778068 }
+[2017-05-31 14:39:45.980] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:39:49.087] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:41:22.963Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212782963 }
+[2017-05-31 14:39:49.096] [ERROR] app - { Error: Not Found
+    at D:/www/test/express/app.js:56:13
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:635:15
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:43:3 status: 404 }
+[2017-05-31 14:39:52.346] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:40:06.947] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:41:29.145Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212789146 }
+[2017-05-31 14:40:10.220] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:40:11.656] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:41:46.976Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212806977 }
+[2017-05-31 14:40:14.846] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:40:35.140] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:41:51.675Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496212811676 }
+[2017-05-31 14:40:38.230] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:46:07.517] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:47:47.516Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:46:35.275] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:46:39.367] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:48:19.365Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:46:54.141] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:48:34.141Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:46:57.466] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:47:01.699] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:48:34.150Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213214152 }
+[2017-05-31 14:47:19.430] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:47:20.811] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:48:34.150Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213214152 }
+[2017-05-31 14:47:24.218] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:47:27.069] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:49:07.068Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:47:30.210] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:47:36.632] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:49:00.868Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213240869 }
+[2017-05-31 14:47:39.977] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:47:47.046] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:49:16.693Z,
+     originalMaxAge: 99999,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213256694 }
+[2017-05-31 14:47:50.576] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:47:51.773] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:49:27.100Z,
+     originalMaxAge: 99999,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213267102 }
+[2017-05-31 14:47:51.795] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:49:31.795Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 14:47:55.161] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:48:16.506] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:48:17.681] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:49:31.871Z,
+     originalMaxAge: 99999,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213271873 }
+[2017-05-31 14:48:21.212] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:48:22.300] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:49:57.734Z,
+     originalMaxAge: 99999,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213297735 }
+[2017-05-31 14:48:25.650] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:48:29.867] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:50:02.347Z,
+     originalMaxAge: 99998,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213302349 }
+[2017-05-31 14:48:33.395] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 14:48:36.659] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T06:50:09.932Z,
+     originalMaxAge: 99998,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496213309935 }
+[2017-05-31 14:48:40.103] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:04:06.119] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:05:48.417] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:09:31.937] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:09:46.276] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:11:26.275Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:11:39.822] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:13:19.822Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:11:57.856] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:13:37.856Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:12:00.762] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:12:17.156] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:13:57.155Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:12:27.913] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:14:07.913Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:12:30.926] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:14:23.242] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:14:57.936] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:16:37.935Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:15:02.675] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:16:42.674Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:15:05.693] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:15:16.462] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:15:57.687] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:16:08.685] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:16:36.622] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:19:01.398] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:23:02.189] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:24:26.031] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:25:02.257] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:25:14.369] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:26:54.368Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:25:18.980] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:26:58.980Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:25:35.894] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:27:15.894Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:26:58.893] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:27:00.153] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:28:40.152Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:27:06.377] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:28:46.377Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:27:08.732] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:28:48.731Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:27:08.742] [ERROR] app - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+    at ServerResponse.header (D:\www\test\express\node_modules\express\lib\response.js:725:10)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\www\test\express\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:158:21)
+    at D:/www/test/express/routes/index.js:56:7
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+[2017-05-31 15:27:08.791] [ERROR] console - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+    at ServerResponse.header (D:\www\test\express\node_modules\express\lib\response.js:725:10)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:170:12)
+    at done (D:\www\test\express\node_modules\express\lib\response.js:962:10)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:208:10)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:/www/test/express/app.js:71:7
+    at Layer.handle_error (D:\www\test\express\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:315:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+[2017-05-31 15:27:37.415] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:27:40.513] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:29:20.512Z,
+     originalMaxAge: 99999,
+     httpOnly: true } }
+[2017-05-31 15:27:46.966] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:29:26.966Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:28:00.354] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:29:40.354Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:29:48.183] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:30:08.175] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:30:19.432] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:30:20.618] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:32:00.617Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:30:26.802] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:32:06.802Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:30:39.063] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:32:06.807Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496215826808 }
+[2017-05-31 15:31:05.223] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:31:06.476] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:32:19.070Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496215839070 }
+[2017-05-31 15:31:25.581] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:33:05.580Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:31:29.126] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:33:09.125Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:31:35.564] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:33:15.564Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:31:57.017] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:33:37.017Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:32:21.246] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:32:26.530] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:34:06.528Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:32:33.760] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:34:06.559Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  message: '',
+  __lastAccess: 1496215946560 }
+[2017-05-31 15:32:45.504] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:34:13.769Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  message: '',
+  __lastAccess: 1496215953769,
+  user: '111' }
+[2017-05-31 15:33:17.259] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:33:33.711] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:35:13.710Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:33:35.829] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:35:13.725Z,
+     originalMaxAge: 99999,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496216013727 }
+[2017-05-31 15:33:35.866] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:35:13.725Z,
+     originalMaxAge: 99999,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496216013727 }
+[2017-05-31 15:33:35.874] [ERROR] app - { Error: Not Found
+    at D:/www/test/express/app.js:56:13
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:635:15
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:/www/test/express/app.js:43:3 status: 404 }
+[2017-05-31 15:38:14.056] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:39:54.056Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:38:15.683] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:39:54.065Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  message: '',
+  __lastAccess: 1496216294065 }
+[2017-05-31 15:38:22.403] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:39:55.689Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  message: '',
+  __lastAccess: 1496216295689 }
+[2017-05-31 15:38:33.635] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:40:13.634Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:38:46.524] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:40:13.639Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  message: '',
+  __lastAccess: 1496216313639 }
+[2017-05-31 15:39:44.651] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:39:46.408] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:40:26.536Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  message: '',
+  __lastAccess: 1496216326536,
+  user: '111' }
+[2017-05-31 15:39:58.421] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:41:38.420Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:40:11.504] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:41:51.504Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:40:25.660] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:42:05.653Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:43:52.751] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 15:43:54.874] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:45:34.873Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:43:58.423] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T07:45:38.423Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 15:43:58.443] [ERROR] app - TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:443:11)
+    at writetop (D:\www\test\express\node_modules\express-session\index.js:296:22)
+    at ServerResponse.end (D:\www\test\express\node_modules\express-session\index.js:338:16)
+    at D:/www/test/express/routes/index.js:36:13
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+[2017-05-31 15:43:58.494] [ERROR] console - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+    at ServerResponse.header (D:\www\test\express\node_modules\express\lib\response.js:725:10)
+    at ServerResponse.contentType (D:\www\test\express\node_modules\express\lib\response.js:558:15)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:145:14)
+    at done (D:\www\test\express\node_modules\express\lib\response.js:962:10)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:208:10)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:/www/test/express/app.js:71:7
+    at Layer.handle_error (D:\www\test\express\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:315:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+[2017-05-31 16:02:19.170] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:02:21.165] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:04:01.164Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:02:24.340] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:04:04.339Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:02:40.459] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:04:20.459Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:02:58.368] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:04:38.368Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:03:01.133] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:04:41.133Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:03:09.197] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:04:49.197Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:03:30.824] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:03:56.617] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:04:03.794] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:05:43.793Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:04:24.684] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:06:04.684Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:04:43.694] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:06:23.694Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:23.593] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:05:30.943] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:10.942Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:37.946] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:17.946Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:48.231] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:28.231Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:54.135] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:34.135Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:54.798] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:34.798Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:55.459] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:35.459Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:56.217] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:36.217Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:57.097] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:37.097Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:05:59.891] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:39.891Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:06:05.361] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:45.361Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:06:07.077] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:07:47.077Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:06:50.530] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:06:56.886] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:08:36.886Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:06:58.468] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:08:38.468Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:07:05.538] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:08:38.475Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218018475 }
+[2017-05-31 16:07:44.670] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:08:16.629] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:08:24.161] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:08:38.271] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:08:45.547Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218025548 }
+[2017-05-31 16:08:41.901] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:10:21.901Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:08:41.909] [ERROR] app - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+    at ServerResponse.header (D:\www\test\express\node_modules\express\lib\response.js:725:10)
+    at ServerResponse.location (D:\www\test\express\node_modules\express\lib\response.js:842:15)
+    at D:/www/test/express/routes/index.js:35:6
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+[2017-05-31 16:08:41.960] [ERROR] console - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+    at ServerResponse.header (D:\www\test\express\node_modules\express\lib\response.js:725:10)
+    at ServerResponse.send (D:\www\test\express\node_modules\express\lib\response.js:170:12)
+    at done (D:\www\test\express\node_modules\express\lib\response.js:962:10)
+    at tryHandleCache (D:\www\test\express\node_modules\ejs\lib\ejs.js:208:10)
+    at View.exports.renderFile [as engine] (D:\www\test\express\node_modules\ejs\lib\ejs.js:412:10)
+    at View.render (D:\www\test\express\node_modules\express\lib\view.js:128:8)
+    at tryRender (D:\www\test\express\node_modules\express\lib\application.js:640:10)
+    at EventEmitter.render (D:\www\test\express\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\www\test\express\node_modules\express\lib\response.js:966:7)
+    at D:/www/test/express/app.js:71:7
+    at Layer.handle_error (D:\www\test\express\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:315:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+[2017-05-31 16:08:55.196] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:08:56.542] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:10:18.357Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218118357 }
+[2017-05-31 16:08:59.775] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:10:39.775Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:09:10.439] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:10:36.592Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218136592 }
+[2017-05-31 16:09:29.474] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:11:09.474Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:09:34.727] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:11:14.726Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:09:46.169] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:11:26.168Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:10:40.908] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:10:52.866] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:12:32.865Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:10:54.485] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:12:34.485Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:10:59.047] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:12:39.047Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:10:59.070] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:12:39.070Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:11:11.980] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:12:51.980Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:16:52.842] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:17:04.609] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:17:05.710] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:18:45.709Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:17:15.106] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:18:55.106Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:17:59.572] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:18:55.114Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218635114 }
+[2017-05-31 16:18:01.295] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:19:39.578Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218679579 }
+[2017-05-31 16:18:04.869] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:19:41.305Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218681305 }
+[2017-05-31 16:18:59.707] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:19:44.877Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496218684878 }
+[2017-05-31 16:19:19.264] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:19:20.373] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:21:00.372Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:19:21.769] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:21:01.769Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:19:32.873] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:21:12.872Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:33:16.326] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:34:56.326Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:33:22.507] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:35:02.507Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:35:54.156] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 16:35:59.613] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:37:39.611Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 16:36:03.540] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T08:37:43.540Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:24:04.935] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:25:44.935Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:24:12.968] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:25:52.968Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:25:13.321] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:25:15.168] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:26:55.167Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:25:18.841] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:26:58.841Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:30:11.341] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:30:37.516] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:32:17.515Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:30:40.342] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:32:20.342Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:30:41.930] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:32:21.930Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:33:40.504] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:33:42.096] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:35:22.095Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:33:44.075] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:35:24.075Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:33:46.162] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:35:26.162Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:34:18.408] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:34:22.411] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:35:26.166Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223226166 }
+[2017-05-31 17:34:25.808] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:36:02.495Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223262495 }
+[2017-05-31 17:35:04.908] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:35:08.408] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:36:05.812Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223265812 }
+[2017-05-31 17:35:10.848] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:36:48.499Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223308500 }
+[2017-05-31 17:35:12.313] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:36:50.868Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223310868 }
+[2017-05-31 17:37:28.001] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:37:35.957] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:39:15.956Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:37:36.888] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:39:16.887Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:37:38.126] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:39:18.126Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:40:28.340] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:40:30.119] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:10.117Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:40:31.601] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:11.601Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:40:37.168] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:11.613Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223631614 }
+[2017-05-31 17:40:38.617] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:17.201Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223637202 }
+[2017-05-31 17:40:54.688] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:18.622Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223638622 }
+[2017-05-31 17:41:13.795] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:53.794Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:41:19.907] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:59.907Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:41:29.122] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:42:59.929Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223679929 }
+[2017-05-31 17:41:56.730] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:42:04.170] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:43:09.135Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: '111',
+  __lastAccess: 1496223689135 }
+[2017-05-31 17:42:04.204] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:43:44.203Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:42:10.628] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:43:50.628Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:42:10.654] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:43:50.654Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:42:16.685] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:43:56.685Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:42:20.769] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:00.768Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:42:20.788] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:00.788Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:42:26.437] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:06.436Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:42:29.457] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:06.452Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: 'w' },
+  __lastAccess: 1496223746452 }
+[2017-05-31 17:42:29.469] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:09.469Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:43:00.464] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 17:43:01.734] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:09.544Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: 'w' },
+  __lastAccess: 1496223749544 }
+[2017-05-31 17:43:01.792] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:09.544Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: 'w' },
+  __lastAccess: 1496223749544 }
+[2017-05-31 17:43:01.827] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:41.827Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 17:43:04.441] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:41.932Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: 'w' },
+  __lastAccess: 1496223781932 }
+[2017-05-31 17:43:04.459] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T09:44:44.459Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 18:33:45.198] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 18:34:32.954] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 18:35:34.682] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T10:37:14.681Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 18:35:34.708] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T10:37:14.707Z,
+     originalMaxAge: 99999,
+     httpOnly: true } }
+[2017-05-31 18:35:39.248] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T10:37:19.248Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 18:35:39.255] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T10:37:19.255Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 18:35:42.286] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T10:37:22.286Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 18:35:42.302] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-05-31T10:37:22.302Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-05-31 18:38:59.947] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 18:40:02.643] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 18:40:12.346] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 22:05:50.584] [INFO] console - [session-file-store] Deleting expired sessions

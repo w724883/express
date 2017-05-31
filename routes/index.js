@@ -1,64 +1,32 @@
-import React from 'react';
-import ReactDOMServer from 'react-dom/server';
-import {StaticRouter} from 'react-router';
 import {logger} from '../src/log4js';
-import App from '../src/components/app';
-import Routes from '../src/routes';
-import store from '../src/store';
-import * as actions from '../src/actions';
+import renderIndex from '../server/index';
+
 var express = require('express');
 var router = express.Router();
 var List = require('../models/list');
 var User = require('../models/user');
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  	// List.find(req,function(err, obj){
-  	// 	if(err){
-			// logger('index').error(err);
-  	// 	}
-  	// 	res.render('index', { data: obj});
-  	// });
-  	store.dispatch(actions.setSession(req.session));
-	Promise.all([
-	  store.dispatch(actions.fetchList("page=1"))
-	]).then(() => {
-	  	const context = {}
-	  	const markup = ReactDOMServer.renderToString(
-	  		<App>
-	  	  		<StaticRouter
-	  	    		location={req.url}
-	  	    		context={context}
-	  	  		>
-	  	    		<Routes />
-	  	  		</StaticRouter>
-	  	  	</App>
-	  	);
-	  	if (context.url) {
-		    res.writeHead(301, {
-		      Location: context.url
-		    })
-		    res.end();
-	  	} else {
-		    res.render('index', { data: markup, store:JSON.stringify(store.getState())});
-		    res.end();
-	  	}
-	});
 
-  	
-  	// res.render('index', { data: markup, store:'1'});
+// router.get('/', index);
+
+router.get('*', function(req,res,next){
+	var path = req.params[0];
+	switch (path){
+		case '/':
+		case '/login':
+		case '/register':renderIndex(req,res);break;
+		default:next();
+	}
 });
-
-
-
 
 // login
-router.get('/login', function(req, res, next) {
-	if(req.session.user){
-		return res.redirect('/');
-	}
-	req.session.message = '';
-  	res.render('login');
-});
+// router.get('/login', function(req, res, next) {
+// 	if(req.session.user){
+// 		return res.redirect('/');
+// 	}
+// 	req.session.message = '';
+//   	res.render('login');
+// });
+
 router.post('/login', function(req, res, next) {
 	var username = req.body.username;
 	var password = req.body.password;
@@ -69,40 +37,38 @@ router.post('/login', function(req, res, next) {
 					req.session.user = {
 						username,
 					};
-					return res.redirect('/');
+					res.send({'error':0,'message':'success'});
+					// return res.redirect('/');
 				}else{
-					req.session.message = '用户名或密码错误';
-					return res.redirect('/login');
+					res.send({'error':1001,'message':'用户名或密码错误'});
 				}
 			}else{
-				req.session.message = '您未注册';
-				return res.redirect('/register');
+				res.send({'error':1002,'message':'您未注册'});
 			}
 	  		if(err){
 				logger('login').error(err);
 	  		}
 		});
 	}else{
-		req.session.message = '请输入用户名或密码';
-		return res.redirect('/login');
+		res.send({'error':1003,'message':'请输入用户名或密码'});
 	}
 	
 });
 // register
-router.get('/register', function(req, res, next) {
-	if(req.session.user){
-		return res.redirect('/');
-	}
-	req.session.message = '';
-  	res.render('register');
-});
+// router.get('/register', function(req, res, next) {
+// 	if(req.session.user){
+// 		return res.redirect('/');
+// 	}
+// 	req.session.message = '';
+//   	res.render('register');
+// });
 router.post('/register', function(req, res, next) {
 	var username = req.body.username;
 	var password = req.body.password;
 	if(username.trim() && password.trim()){
 		User.save(req.body, function(err){
 			if(err) {
-				res.send({'success':false,'err':err});
+				res.send({'error':1004,'message':'注册失败'});
 		  		if(err){
 					logger('register').error(err);
 		  		}
@@ -110,12 +76,11 @@ router.post('/register', function(req, res, next) {
 				req.session.user = {
 					username,
 				};
-				res.redirect('/');
+				res.send({'error':0,'message':'success'});
 			}
 		});
 	}else{
-		req.session.message = '用户名或密码不能为空';
-		return res.redirect('/register');
+		res.send({'error':1005,'message':'用户名或密码不能为空'});
 	}
 	
 });
@@ -133,7 +98,7 @@ router.get('/list', function(req, res, next) {
   		if(err){
 			logger('list').error(err);
   		}
-  		res.end();
+  		// res.end();
 	});
 });
 

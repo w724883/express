@@ -3,9 +3,7 @@ import config from '../config';
 export const fetchList = (params) => {
 	params = params || "";
 	return (dispatch,state) => {
-		return fetch(config.api.list+"?"+params,{
-			mode:"cors"
-		}).then(res => {
+		return fetch(config.api.list+"?"+params).then(res => {
 			return res.json();
 		}).then(json => {
 			if(json.error == 0){

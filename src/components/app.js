@@ -6,7 +6,7 @@ store.subscribe(() => {
 	let _state = store.getState();
 	// console.log(_state);
 });
-
+console.log(store.getState());
 
 export default class App extends React.Component{
 	render(){
