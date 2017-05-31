@@ -5,6 +5,11 @@
 > 所有包版本为2017.5.20的最新版本
 
 ## 安装
+安装mongodb
+
+启动mongodb， `mongod --dbpath d:/MongoDB/Server/3.4/data/db`（查询mongodb，`mongo`，`db.lists.find()`）
+
+创建数据库，`mongo`，`use express` ，修改配置文件./models/mongodb.js，`mongoose.connect('mongodb://localhost/express');`
 
 npm install nodemon -g
 
@@ -13,15 +18,6 @@ npm install
 ## 启动
 
 npm start
-
-
-## mongodb
-
-安装mongodb
-
-启动mongodb， `mongod --dbpath d:/MongoDB/Server/3.4/data/db`
-
-查询mongodb，`mongo`，`db.lists.find()`
 
 ## 调试
 
