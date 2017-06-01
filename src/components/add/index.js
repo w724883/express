@@ -3,11 +3,11 @@ import { connect } from 'react-redux';
 import fetch from 'isomorphic-fetch';
 import { Link } from 'react-router-dom';
 import config from '../../config';
-import url from 'url';
 
-class Login extends React.Component{
+class Add extends React.Component{
 	constructor(props) {
 	  	super(props);
+	
 	  	this.state = {
 	  		error:''
 	  	};
@@ -16,18 +16,18 @@ class Login extends React.Component{
 		e.persist();
 		e.preventDefault();
 
-		let username = this.refs.username.value;
-		let password = this.refs.password.value;
+		let title = this.refs.title.value;
+		let descriptions = this.refs.descriptions.value;
 		// var data = new FormData();
 
-		fetch(config.api.login,{
+		fetch(config.api.add,{
 			method:"POST",
 			credentials: "same-origin",
 			headers: {
 	          'Content-Type': 'application/x-www-form-urlencoded'
 	        },
 			// mode: "cors",
-			body: 'username='+username+'&password='+password,
+			body: 'title='+title+'&descriptions='+descriptions,
 		}).then((res) => {
 			return res.json();
 		}).then((res) => {
@@ -36,8 +36,7 @@ class Login extends React.Component{
 					error:res.message
 				});
 			}else{
-				let query = url.parse(window.location.href,true).query;
-				window.location.href = query.from ? query.from : '/';
+				window.location.href = '/';
 			}
 			
 		});
@@ -45,18 +44,17 @@ class Login extends React.Component{
 		
 	}
 	render(){
-
+		let {session} = this.props.state;
 		return (
 			<div className="login">
-				<Link to="/register">注册</Link>
-				<form action="/login" method="post" onSubmit={this.handleSubmit.bind(this)}>
-					<p>用户名：<input type="text" ref="username" /></p>
-					<p>密码：<input type="password" ref="password" /></p>
-					<button type="submit">登陆</button>
+				<form action="/add" method="post" onSubmit={this.handleSubmit.bind(this)}>
+					<p><input type="text" name="title" ref="title" /></p>
+					<p><textarea name="descriptions" ref="descriptions" /></p>
+					<button type="submit">添加</button>
 				</form>
 				<span>{this.state.error}</span>
 			</div>
 		);
 	}
 }
-export default connect((state) => ({state}))(Login);
+export default connect((state) => ({state}))(Add);

@@ -23,9 +23,11 @@ class List extends React.Component{
 		  	dispatch(actions.fetchList("page="+this.page))
 		]);
 	}
-	// componentWillMount() {
-	// 	this.handleGetData.call(this);
-	// }
+	componentWillMount() {
+		// if(typeof __CLIENT__ != 'undefined'){
+		// 	this.handleGetData.call(this);
+		// }
+	}
 	render(){
 		let {list} = this.props.state;
 		return list.data && list.data.length ? (
@@ -35,6 +37,7 @@ class List extends React.Component{
 						list.data.map((value,key) => (
 							<li key={key}>
 								<span>{value.title}</span>
+								<em> —{value.author}</em>
 								<p>{value.descriptions}</p>
 							</li>
 						))

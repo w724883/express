@@ -3,6 +3,7 @@ var Schema = mongodb.Schema;
 var ListSchema = new Schema({
 	title : String,
 	descriptions : String,
+	author : String,
 	create_date : { type: Date, default: Date.now}
 });
 var List = mongodb.model("list", ListSchema);

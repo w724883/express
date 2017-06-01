@@ -1,0 +1,2248 @@
+[2017-06-01 10:24:09.527] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-01 10:36:02.968] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:37:42.966Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:36:03.004] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:37:43.004Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:36:05.602] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:37:45.602Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:36:10.138] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:37:50.138Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:38:49.219] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:40:06.266] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:40:15.139] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:40:59.828] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:42:15.198] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:42:17.139] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:43:57.138Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:42:19.287] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:43:59.287Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:43:44.627] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:43:46.227] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:45:26.226Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:44:14.678] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:44:16.222] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:45:56.221Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:44:27.150] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:46:07.150Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:44:27.251] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:46:07.203Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: '2' },
+  __lastAccess: 1496285067203 }
+[2017-06-01 10:44:27.279] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:46:07.279Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:44:31.265] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:46:07.342Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: '2' },
+  __lastAccess: 1496285067342 }
+[2017-06-01 10:44:31.287] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:46:11.286Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:46:43.115] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:46:44.653] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:48:24.651Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:47:11.568] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:47:14.351] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:48:54.348Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:47:14.367] [INFO] console - {}
+[2017-06-01 10:47:55.389] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:48:07.929] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:48:11.876] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:49:51.874Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:48:11.884] [INFO] console - {}
+[2017-06-01 10:48:17.110] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:49:57.110Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:48:17.115] [INFO] console - {}
+[2017-06-01 10:48:27.643] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:50:07.643Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:48:27.649] [INFO] console - {}
+[2017-06-01 10:48:42.325] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:48:43.598] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:50:23.595Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:48:43.607] [INFO] console - IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     resumeScheduled: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 465,
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000 },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000 },
+     _idleStart: 3881,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {},
+        writeHead: [Function: writeHead],
+        end: [Function: end] } },
+  connection: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 465,
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000 },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000 },
+     _idleStart: 3881,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {},
+        writeHead: [Function: writeHead],
+        end: [Function: end] } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: 'localhost:3000',
+     connection: 'keep-alive',
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     'upgrade-insecure-requests': '1',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36',
+     referer: 'http://localhost:3000/register',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh,zh-CN;q=0.8,en;q=0.6' },
+  rawHeaders: 
+   [ 'Host',
+     'localhost:3000',
+     'Connection',
+     'keep-alive',
+     'Pragma',
+     'no-cache',
+     'Cache-Control',
+     'no-cache',
+     'Accept',
+     'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     'Upgrade-Insecure-Requests',
+     '1',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36',
+     'Referer',
+     'http://localhost:3000/register',
+     'Accept-Encoding',
+     'gzip, deflate, sdch',
+     'Accept-Language',
+     'zh,zh-CN;q=0.8,en;q=0.6' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 465,
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000 },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000 },
+     _idleStart: 3881,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {},
+        writeHead: [Function: writeHead],
+        end: [Function: end] } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/',
+     path: '/',
+     href: '/',
+     _raw: '/' },
+  params: {},
+  query: {},
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 3881,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 3881,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {},
+     writeHead: [Function: writeHead],
+     end: [Function: end] },
+  body: {},
+  secret: 'session',
+  cookies: {},
+  signedCookies: {},
+  _parsedOriginalUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/',
+     path: '/',
+     href: '/',
+     _raw: '/' },
+  sessionStore: 
+   FileStore {
+     domain: null,
+     _events: 
+      { disconnect: [Function: ondisconnect],
+        connect: [Function: onconnect] },
+     _eventsCount: 2,
+     _maxListeners: undefined,
+     options: 
+      { path: 'sessions',
+        ttl: 3600,
+        retries: 5,
+        factor: 1,
+        minTimeout: 50,
+        maxTimeout: 100,
+        reapInterval: 3600,
+        reapMaxConcurrent: 10,
+        reapAsync: false,
+        reapSyncFallback: false,
+        logFn: [Function],
+        fallbackSessionFn: undefined,
+        encoding: 'utf8',
+        encoder: [Function: stringify],
+        decoder: [Function: parse],
+        secret: undefined,
+        encryptEncoding: 'hex',
+        fileExtension: '.json',
+        filePattern: /\.json$/,
+        keyFunction: [Function],
+        reapIntervalObject: [Object] },
+     generate: [Function] },
+  sessionID: 'SrHWoOZvB7NGmSsYjiFM9xN9bL1QyhXs',
+  session: 
+   Session {
+     cookie: 
+      { path: '/',
+        _expires: 2017-06-01T02:50:23.595Z,
+        originalMaxAge: 100000,
+        httpOnly: true } },
+  route: Route { path: '/', stack: [ [Object] ], methods: { get: true } } }
+[2017-06-01 10:50:48.097] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:50:49.278] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:52:29.277Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:50:49.285] [INFO] console - /
+[2017-06-01 10:50:57.443] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:52:37.443Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:50:57.452] [INFO] console - /login
+[2017-06-01 10:51:13.696] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:52:53.696Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:51:13.700] [INFO] console - /login?a=1
+[2017-06-01 10:51:26.328] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:53:06.328Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:51:26.332] [INFO] console - /?a=1
+[2017-06-01 10:54:30.060] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:56:10.059Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:54:37.780] [INFO] console - /login
+[2017-06-01 10:54:41.153] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 10:54:42.222] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:56:22.221Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:54:42.228] [INFO] console - {}
+[2017-06-01 10:54:43.113] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:56:23.113Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:54:43.119] [INFO] console - {}
+[2017-06-01 10:54:50.455] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:56:30.455Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:54:50.462] [INFO] console - {}
+[2017-06-01 10:54:51.503] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:56:31.503Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:54:51.511] [INFO] console - {}
+[2017-06-01 10:54:51.735] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:56:31.735Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:54:51.746] [INFO] console - {}
+[2017-06-01 10:54:52.738] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:56:32.737Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:54:52.742] [INFO] console - {}
+[2017-06-01 10:56:52.759] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T02:58:32.759Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 10:56:52.770] [INFO] console - {}
+[2017-06-01 11:54:42.270] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-01 12:54:41.953] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-01 13:04:23.178] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 13:04:23.209] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 13:04:24.853] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:06:04.853Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:04:24.858] [INFO] console - {}
+[2017-06-01 13:09:15.778] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 13:09:17.047] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:10:57.046Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:09:17.055] [INFO] console - Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '',
+  query: {},
+  pathname: '/',
+  path: '/',
+  href: '/' }
+[2017-06-01 13:09:32.803] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:11:12.803Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:09:32.809] [INFO] console - Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '',
+  query: {},
+  pathname: '/login',
+  path: '/login',
+  href: '/login' }
+[2017-06-01 13:09:46.661] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:11:26.661Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:09:46.665] [INFO] console - Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?a=1',
+  query: { a: '1' },
+  pathname: '/login',
+  path: '/login?a=1',
+  href: '/login?a=1' }
+[2017-06-01 13:10:58.863] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:12:38.863Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:11:04.794] [INFO] console - Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '',
+  query: {},
+  pathname: '/',
+  path: '/',
+  href: '/' }
+[2017-06-01 13:11:04.819] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:12:44.819Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:11:04.825] [INFO] console - Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '',
+  query: {},
+  pathname: '/',
+  path: '/',
+  href: '/' }
+[2017-06-01 13:11:08.745] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 13:11:10.030] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:12:50.029Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:11:10.036] [INFO] console - undefined
+[2017-06-01 13:12:03.755] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 13:12:05.278] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:13:45.277Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:12:05.301] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:13:45.301Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:12:06.935] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:13:46.934Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:12:06.942] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:13:46.942Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:13:13.911] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 13:13:15.511] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:14:55.510Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:13:18.855] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:14:58.855Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:13:35.343] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:15:15.343Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:13:35.415] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:15:15.369Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: '2' },
+  __lastAccess: 1496294015369 }
+[2017-06-01 13:13:35.443] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:15:15.443Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:13:41.361] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:15:15.494Z,
+     originalMaxAge: 100000,
+     httpOnly: true },
+  user: { username: '2' },
+  __lastAccess: 1496294015494 }
+[2017-06-01 13:13:41.385] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T05:15:21.384Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 13:55:32.995] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 14:05:14.024] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 14:06:02.022] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 14:06:13.333] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T06:07:53.332Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 14:06:13.351] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T06:07:53.350Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 14:06:20.641] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T06:08:00.641Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 14:06:20.654] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T06:08:00.654Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 14:06:27.240] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T06:08:07.240Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 14:06:27.263] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-01T06:08:07.263Z,
+     originalMaxAge: 100000,
+     httpOnly: true } }
+[2017-06-01 14:07:07.444] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 14:08:10.594] [INFO] console - null
+[2017-06-01 14:09:01.663] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 14:09:10.702] [INFO] console - null
+[2017-06-01 14:09:10.703] [INFO] console - null
+[2017-06-01 14:10:47.687] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 15:10:49.036] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-01 16:10:49.120] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-01 16:28:05.240] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:32:06.039] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:32:36.305] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:35:31.363] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:39:27.936] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:39:57.473] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:40:45.960] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:41:39.639] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:42:56.306] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:43:05.003] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:44:35.322] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:44:57.407] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:45:46.134] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:45:59.988] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:46:05.055] [ERROR] app - { Error: Not Found
+    at D:/www/test/express/app.js:56:13
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:635:15
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at session (D:\www\test\express\node_modules\express-session\index.js:454:7) status: 404 }
+[2017-06-01 16:46:53.965] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:47:04.786] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:48:08.034] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:53:06.758] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:53:20.197] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:20.247] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:20.298] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:20.349] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:20.400] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:29.566] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:29.616] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:29.666] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:29.716] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:53:29.766] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:54:16.245] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:54:16.296] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:54:16.347] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:54:16.398] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:54:16.449] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\jKW6_xDqnPBMdMHng8qn-z-CUVn7ilO-.json'
+[2017-06-01 16:55:10.989] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:57:26.215] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:57:35.090] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:57:46.983] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 16:58:48.668] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:48.719] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:48.770] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:48.820] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:48.870] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.307] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.358] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.408] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.459] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.509] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.565] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.616] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.666] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.716] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 16:58:59.773] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\LFOgd5atty2jkLXu716epZboHQcoGBfl.json'
+[2017-06-01 17:01:52.536] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:02:04.975] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:02:08.813] [INFO] console - { list: 
+   { data: [ [Object], [Object], [Object], [Object], [Object] ],
+     num: 5,
+     page: 1 },
+  session: 
+   Session {
+     cookie: 
+      { path: '/',
+        _expires: 2017-06-01T09:03:48.802Z,
+        originalMaxAge: 100000,
+        httpOnly: true } },
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:04:10.453] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:04:11.924] [INFO] console - { match: { path: '/login', url: '/login', isExact: true, params: {} },
+  location: { pathname: '/login', search: '?from=/add', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/login', search: '?from=/add', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: {},
+     session: Session { cookie: [Object] },
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 17:09:59.738] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:10:04.928] [INFO] console - /login?from=/add
+[2017-06-01 17:10:04.964] [INFO] console - { match: { path: '/login', url: '/login', isExact: true, params: {} },
+  location: { pathname: '/login', search: '?from=/add', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/login', search: '?from=/add', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: {},
+     session: Session { cookie: [Object] },
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 17:10:20.099] [INFO] console - /login?from=/add
+[2017-06-01 17:10:20.108] [INFO] console - { match: { path: '/login', url: '/login', isExact: true, params: {} },
+  location: { pathname: '/login', search: '?from=/add', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/login', search: '?from=/add', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: {},
+     session: Session { cookie: [Object] },
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 17:10:59.430] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:11:01.148] [INFO] console - /login?from=/add
+[2017-06-01 17:12:00.479] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:12:20.244] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:13:34.497] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:13:55.811] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:14:27.242] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:15:02.252] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:15:59.005] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:17:45.151] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:20:20.648] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:20:53.684] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:21:40.731] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:22:17.574] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:22:53.530] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:24:08.415] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:35:25.826] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:36:01.501] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:36:32.167] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:36:59.303] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:37:22.603] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:39:58.125] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:42:41.874] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:45:14.169] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:45:23.402] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:46:57.072] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:48:40.402] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:49:25.285] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:51:38.558] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:52:34.558] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:52:40.582] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:52:55.217] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:53:09.414] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:54:43.329] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:55:11.991] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:55:37.962] [ERROR] app - { Error: Not Found
+    at D:/www/test/express/app.js:56:13
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:635:15
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:\www\test\express\node_modules\express-session\index.js:489:7 status: 404 }
+[2017-06-01 17:56:48.694] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:57:40.974] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:59:01.158] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 17:59:23.183] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:00:00.160] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:04:06.713] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:04:14.871] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:04:22.477] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:06:14.399] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:07:26.664] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:07:38.407] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:08:15.943] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:09:51.938] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:10:51.329] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 18:15:13.420] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:09:32.283] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:10:09.007] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:10:20.194] [INFO] console - undefined
+[2017-06-01 19:11:13.684] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:11:30.024] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:23:06.162] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:23:30.313] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:23:37.878] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:23:42.709] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: Session { cookie: [Object] },
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:24:22.377] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:24:23.821] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: Session { cookie: [Object] },
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:25:18.587] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:25:20.406] [ERROR] app - Error: Given action "SET_SESSION", reducer "session" returned undefined. To ignore an action, you must explicitly return the previous state.
+    at combination (D:\www\test\express\node_modules\redux\lib\combineReducers.js:135:15)
+    at dispatch (D:\www\test\express\node_modules\redux\lib\createStore.js:179:22)
+    at D:\www\test\express\node_modules\redux-thunk\lib\index.js:14:16
+    at dispatch (D:\www\test\express\node_modules\redux\lib\applyMiddleware.js:45:18)
+    at D:/www/test/express/src/actions/index.js:35:10
+    at Object.dispatch (D:\www\test\express\node_modules\redux-thunk\lib\index.js:11:18)
+    at exports.default (D:/www/test/express/server/index.js:18:8)
+    at D:/www/test/express/routes/index.js:12:2
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+[2017-06-01 19:25:21.960] [ERROR] app - Error: Given action "SET_SESSION", reducer "session" returned undefined. To ignore an action, you must explicitly return the previous state.
+    at combination (D:\www\test\express\node_modules\redux\lib\combineReducers.js:135:15)
+    at dispatch (D:\www\test\express\node_modules\redux\lib\createStore.js:179:22)
+    at D:\www\test\express\node_modules\redux-thunk\lib\index.js:14:16
+    at dispatch (D:\www\test\express\node_modules\redux\lib\applyMiddleware.js:45:18)
+    at D:/www/test/express/src/actions/index.js:35:10
+    at Object.dispatch (D:\www\test\express\node_modules\redux-thunk\lib\index.js:11:18)
+    at exports.default (D:/www/test/express/server/index.js:18:8)
+    at D:/www/test/express/routes/index.js:12:2
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+[2017-06-01 19:28:42.775] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:28:44.526] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: 1,
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:29:01.235] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:29:15.799] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:29:16.958] [ERROR] app - Error: Given action "SET_SESSION", reducer "session" returned undefined. To ignore an action, you must explicitly return the previous state.
+    at combination (D:\www\test\express\node_modules\redux\lib\combineReducers.js:135:15)
+    at dispatch (D:\www\test\express\node_modules\redux\lib\createStore.js:179:22)
+    at D:\www\test\express\node_modules\redux-thunk\lib\index.js:14:16
+    at dispatch (D:\www\test\express\node_modules\redux\lib\applyMiddleware.js:45:18)
+    at D:/www/test/express/src/actions/index.js:35:10
+    at Object.dispatch (D:\www\test\express\node_modules\redux-thunk\lib\index.js:11:18)
+    at exports.default (D:/www/test/express/server/index.js:18:8)
+    at D:/www/test/express/routes/index.js:12:2
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+[2017-06-01 19:29:28.042] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:30:23.704] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:30:26.458] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:30:27.656] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:31:08.902] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:31:28.271] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:31:29.529] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:31:30.234] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:31:30.842] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:34:42.123] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:34:59.401] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:35:00.848] [INFO] console - { match: { path: '/', url: '/', isExact: true, params: {} },
+  location: { pathname: '/', search: '', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/', search: '', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:35:25.734] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:35:55.660] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:37:06.136] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:37:07.667] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:37:09.576] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:37:11.104] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:38:09.043] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:38:10.395] [INFO] console - { history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/', search: '', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:38:10.438] [INFO] console - { history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/', search: '', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 19:38:54.379] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:48:25.124] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:52:25.126] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 19:52:46.890] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:01:05.569] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:01:24.322] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:07:12.693] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:09:52.489] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:10:42.891] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:13:27.470] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:13:29.052] [INFO] console - 1
+[2017-06-01 20:13:51.282] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:13:52.861] [INFO] console - 1
+[2017-06-01 20:13:54.072] [INFO] console - 1
+[2017-06-01 20:14:23.679] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:17:44.481] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:18:22.018] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 20:18:24.195] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 20:18:25.671] [INFO] console - { state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 20:20:13.419] [INFO] console - { match: { path: '/list', url: '/list', isExact: true, params: {} },
+  location: { pathname: '/list', search: '?key=', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/list', search: '?key=', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 20:20:29.347] [INFO] console - { match: { path: '/list', url: '/list', isExact: true, params: {} },
+  location: { pathname: '/list', search: '?key=', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/list', search: '?key=', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 20:20:40.866] [INFO] console - { match: { path: '/list', url: '/list', isExact: true, params: {} },
+  location: { pathname: '/list', search: '?key=', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/list', search: '?key=', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 20:20:47.704] [INFO] console - { match: { path: '/list', url: '/list', isExact: true, params: {} },
+  location: { pathname: '/list', search: '?key=', hash: '' },
+  history: 
+   { createHref: [Function],
+     action: 'POP',
+     location: { pathname: '/list', search: '?key=', hash: '' },
+     push: [Function],
+     replace: [Function],
+     go: [Function],
+     goBack: [Function],
+     goForward: [Function],
+     listen: [Function],
+     block: [Function] },
+  staticContext: {},
+  state: 
+   { list: { data: [Object], num: 5, page: 1 },
+     session: {},
+     routing: { locationBeforeTransitions: null } },
+  dispatch: [Function] }
+[2017-06-01 21:37:28.507] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-01 21:46:52.262] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 22:57:35.572] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-01 22:59:42.146] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 22:59:43.765] [INFO] console - { FetchError: request to http://localhost:3000/getlist failed, reason: socket hang up
+    at ClientRequest.<anonymous> (D:\www\test\express\node_modules\node-fetch\index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketOnEnd (_http_client.js:342:9)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  name: 'FetchError',
+  message: 'request to http://localhost:3000/getlist failed, reason: socket hang up',
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET' }
+[2017-06-01 22:59:51.793] [INFO] console - { FetchError: request to http://localhost:3000/getlist failed, reason: socket hang up
+    at ClientRequest.<anonymous> (D:\www\test\express\node_modules\node-fetch\index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketOnEnd (_http_client.js:342:9)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  name: 'FetchError',
+  message: 'request to http://localhost:3000/getlist failed, reason: socket hang up',
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET' }
+[2017-06-01 22:59:53.415] [INFO] console - { FetchError: request to http://localhost:3000/getlist failed, reason: socket hang up
+    at ClientRequest.<anonymous> (D:\www\test\express\node_modules\node-fetch\index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketOnEnd (_http_client.js:342:9)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  name: 'FetchError',
+  message: 'request to http://localhost:3000/getlist failed, reason: socket hang up',
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET' }
+[2017-06-01 23:00:43.062] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:00:48.347] [INFO] console - { FetchError: request to http://localhost:3000/getlist failed, reason: socket hang up
+    at ClientRequest.<anonymous> (D:\www\test\express\node_modules\node-fetch\index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketOnEnd (_http_client.js:342:9)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  name: 'FetchError',
+  message: 'request to http://localhost:3000/getlist failed, reason: socket hang up',
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET' }
+[2017-06-01 23:01:29.744] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:01:32.424] [INFO] console - { FetchError: request to http://localhost:3000/getlist failed, reason: socket hang up
+    at ClientRequest.<anonymous> (D:\www\test\express\node_modules\node-fetch\index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketOnEnd (_http_client.js:342:9)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:926:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  name: 'FetchError',
+  message: 'request to http://localhost:3000/getlist failed, reason: socket hang up',
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET' }
+[2017-06-01 23:07:43.747] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:08:33.755] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:09:13.272] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:09:19.924] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:09:44.226] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:09:45.723] [INFO] console - 
+[2017-06-01 23:10:04.121] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:10:05.480] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:10:40.725] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:10:42.142] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:10:57.031] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:11:44.541] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:11:45.994] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:11:49.182] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:13:59.176] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:14:07.279] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:14:07.305] [INFO] console - { parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+[2017-06-01 23:14:10.523] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:19:56.742] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:20:12.387] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:22:38.122] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:23:09.828] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:25:50.136] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:27:31.337] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:27:32.931] [INFO] console - 1
+[2017-06-01 23:30:40.533] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:39:37.847] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:39:39.091] [INFO] console - /list?key=2
+[2017-06-01 23:39:59.632] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:40:00.743] [INFO] console - Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?key=2',
+  query: { key: '2' },
+  pathname: '/list',
+  path: '/list?key=2',
+  href: '/list?key=2' }
+[2017-06-01 23:40:58.102] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:40:59.305] [INFO] console - [Function: search]
+[2017-06-01 23:41:18.666] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:41:19.805] [INFO] console - undefined
+[2017-06-01 23:49:42.720] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-01 23:50:27.571] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }

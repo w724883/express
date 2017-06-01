@@ -38,10 +38,10 @@ app.use(session({
 }));
 
 // session赋值
-app.use(function(req, res, next) {
-  console.log(req.session);
-  next();
-});
+// app.use(function(req, res, next) {
+//   console.log(req.session);
+//   next();
+// });
 
 // 路由
 app.use('/', routes);

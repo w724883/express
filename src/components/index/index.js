@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import fetch from 'isomorphic-fetch';
 import List from '../list';
+import Search from '../search';
 
 if(typeof __CLIENT__ != 'undefined'){
 	require('./index.scss');
@@ -41,9 +42,9 @@ class Index extends React.Component{
 					session.user ? <span>你好 {session.user.username}<a href="/logout">退出</a></span> : <p><Link to="/login">登录</Link><Link to="/register">注册</Link></p>
 				}
 
-				<form action="/list" method="get"><input type="search" name="key" /><button>搜索</button></form>
+				<Search history={this.props.history} />
 				{
-					session.user ? <a href="/list/add">添加</a> : null
+					session.user ? <Link to="/add">添加</Link> : null
 				}
 				<List />
 			</div>

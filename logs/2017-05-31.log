@@ -2649,3 +2649,33 @@ message is not defined
   session: {},
   routing: { locationBeforeTransitions: null } }
 [2017-05-31 22:05:50.584] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-05-31 23:03:20.749] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:05:07.672] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:05:17.013] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:07:15.338] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:07:38.561] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:38:56.038] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:39:09.619] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:39:13.952] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:39:30.033] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-05-31 23:39:49.827] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }

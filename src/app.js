@@ -30,10 +30,10 @@ import store from './store';
 import Routes from './routes';
 import App from './components/app';
 // import 'babel-polyfill';
-require.ensure([], function(require){
-    require('./b.js');
+// require('./b.js');
+require.ensure(['./b.js'], function(require){
+    require('./c.js');
 });
-
 render(
     <App>
         <Router>

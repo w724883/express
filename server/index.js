@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import {StaticRouter} from 'react-router';
+import url from 'url';
 import Routes from '../src/routes';
 import App from '../src/components/app';
 import store from '../src/store';
@@ -8,11 +9,14 @@ import * as actions from '../src/actions';
 
 export default (req,res) => {
 	let tasks = [];
-	switch (req.params[0]){
-		case '/': tasks.push(store.dispatch(actions.fetchList("page=1")));break;
+	let params = url.parse(req.url,true);
+	switch (params.pathname){
+		case '/':
+		case '/list':
+		tasks.push(store.dispatch(actions.fetchList(params.search.replace(/\?/g,''))));break;
 	}
-	
-	store.dispatch(actions.setSession(req.session));
+
+	store.dispatch(actions.setSession(req.session.user || {}));
 	Promise.all(tasks).then(() => {
 	  	const context = {};
 	  	const markup = ReactDOMServer.renderToString(
