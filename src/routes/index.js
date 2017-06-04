@@ -1,10 +1,22 @@
 import React from 'react';
 import { Route } from 'react-router';
 import Index from '../components/index';
-import Login from '../components/login';
+// import Login from '../components/login';
 import Register from '../components/register';
 import Add from '../components/add';
 import List from '../components/list';
+
+// import Bundle from './bundle.js';
+// var waitForChunk = require("bundle-loader!./file.js");
+
+import loadLogin from 'bundle-loader?lazy!./file.js';
+// components load their module for initial visit
+const Login = () => (
+  <Bundle load={loadLogin}>
+    {(Login) => <Login/>}
+  </Bundle>
+)
+
 export default () => (
 	<div>
 		<Route exact path="/"  component={ Index } />

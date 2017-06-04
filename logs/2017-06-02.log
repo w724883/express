@@ -1,0 +1,12 @@
+[2017-06-02 10:18:22.515] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-02 11:18:25.796] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-02 12:18:25.952] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-02 13:18:26.761] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-02 13:46:18.395] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-02 14:46:19.879] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-02 17:55:16.833] [INFO] console - { [Function] pitch: [Function] }
+[2017-06-02 17:55:16.896] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
