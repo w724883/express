@@ -11,6 +11,9 @@ class Login extends React.Component{
 	  	this.state = {
 	  		error:''
 	  	};
+	  	require.ensure([], function(require){
+	  	    require('./b.js');
+	  	});
 	}
 	handleSubmit(e){
 		e.persist();
