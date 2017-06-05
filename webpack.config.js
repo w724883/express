@@ -19,41 +19,41 @@ var config = {
   },
   // 插件项
   plugins: [
-      // new webpack.optimize.CommonsChunkPlugin({
-      //     name: "common",
-      //     filename:"common.js",
-      //     minChunks: 2
-      // }),
-      new HtmlWebpackPlugin({
-          filename: path.join(__dirname, 'views/index.ejs'),
-          inject: 'body',
-          chunks:['index'],
-          template: 'html-loader!src/components/index/index.html',
-          chunksSortMode:'dependency',
-          hash:true,
-          // data: {
-          //   html:'<%-html%>',
-          //   store:'<%-store%>'
-          // }
-      }),
-      new ExtractTextPlugin("stylesheets/[name].css"),
-      new webpack.DefinePlugin({
-        '__CLIENT__': true
-      })
-      // new webpack.optimize.UglifyJsPlugin({
-      //     compress: {
-      //         warnings: false
-      //     },
-      //     output: {
-      //       comments: false
-      //     }
-      // })
+    // new webpack.optimize.CommonsChunkPlugin({
+    //     name: "common",
+    //     filename:"common.js",
+    //     minChunks: 2
+    // }),
 
-      // new webpack.DefinePlugin({
-      //   'process.env': {
-      //     'NODE_ENV': '"production"'
-      //   }
-      // })
+    new HtmlWebpackPlugin({
+        filename: path.join(__dirname, 'views/index.ejs'),
+        inject: 'body',
+        chunks:['index'],
+        template: 'html-loader!src/components/index/index.html',
+        chunksSortMode:'dependency',
+        hash:true,
+    }),
+
+    new ExtractTextPlugin("stylesheets/[name].css"),
+
+    new webpack.DefinePlugin({
+      '__CLIENT__': true
+    }),
+    
+    new webpack.optimize.UglifyJsPlugin({
+        compress: {
+            warnings: false
+        },
+        output: {
+          comments: false
+        }
+    }),
+
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_ENV': '"production"'
+      }
+    })
   ],
   module: {
       //加载器配置

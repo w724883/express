@@ -4,3 +4,435 @@
 [2017-06-05 00:00:22.151] [INFO] console - { list: {},
   session: {},
   routing: { locationBeforeTransitions: null } }
+[2017-06-05 00:02:28.959] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 10:41:42.523] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 10:45:00.642] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 10:46:26.381] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 10:46:36.536] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 10:51:27.952] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 10:51:51.681] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 10:52:42.571] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 11:04:34.756] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 11:54:25.867] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 11:54:59.361] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 11:55:18.202] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 11:55:49.307] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 11:56:11.674] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 11:57:12.507] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 12:03:10.458] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 12:03:36.095] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:03:38.776] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 13:06:55.473] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:07:07.446] [ERROR] console - Warning: Component(...): A valid React element (or null) must be returned. You may have returned undefined, an array or some other invalid object.
+[2017-06-05 13:07:23.702] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:07:25.029] [ERROR] console - Warning: Component(...): A valid React element (or null) must be returned. You may have returned undefined, an array or some other invalid object.
+[2017-06-05 13:08:48.085] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:09:12.491] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:11:19.209] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:13:46.422] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:16:03.328] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:18:52.915] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:18:54.343] [INFO] console - 222
+[2017-06-05 13:20:17.140] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:21:20.367] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:22:32.257] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 13:27:56.452] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 14:27:57.665] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 14:47:08.014] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 14:49:31.223] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 14:50:14.543] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 14:50:47.982] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 14:54:37.183] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 14:58:19.808] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:12:31.775] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:13:37.564] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:14:05.885] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:15:11.297] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:15:23.577] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:15:35.986] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:16:09.216] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:16:22.238] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:17:09.523] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:20:25.428] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:21:08.440] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:21:13.885] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:22:02.173] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 15:23:16.688] [INFO] console - { [Function: Connect]
+  WrappedComponent: [Function: Login],
+  displayName: 'Connect(Login)',
+  childContextTypes: { storeSubscription: { [Function: bound checkType] isRequired: [Function: bound checkType] } },
+  contextTypes: 
+   { store: { [Function: bound checkType] isRequired: [Function: bound checkType] },
+     storeSubscription: { [Function: bound checkType] isRequired: [Function: bound checkType] } },
+  propTypes: 
+   { store: { [Function: bound checkType] isRequired: [Function: bound checkType] },
+     storeSubscription: { [Function: bound checkType] isRequired: [Function: bound checkType] } } }
+[2017-06-05 15:23:16.748] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 16:23:18.323] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 16:30:04.379] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 16:30:27.815] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 16:47:13.680] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 16:48:03.552] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 16:54:09.010] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 16:55:15.318] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 16:55:44.108] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:10:26.991] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:13:26.380] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:13:54.829] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:45:10.927] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:45:41.873] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:46:30.156] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:46:39.340] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:48:08.215] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:48:33.735] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 17:51:11.472] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:12:17.494] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:17:08.698] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:17:33.560] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:17:52.206] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:26:04.094] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:26:29.735] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:26:51.552] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:27:33.126] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:27:41.044] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:43:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at session (D:\www\test\express\node_modules\express-session\index.js:454:7)
+[2017-06-05 18:27:45.724] [ERROR] app - TypeError: Cannot read property 'trim' of undefined
+    at D:/www/test/express/routes/index.js:43:5
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at session (D:\www\test\express\node_modules\express-session\index.js:454:7)
+[2017-06-05 18:28:41.788] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:29:04.983] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:29:11.329] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:29:24.026] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 18:29:33.728] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:29:35.333] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 19:30:02.484] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:32:33.578] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:36:36.135] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:36:37.316] [ERROR] console - Warning: Failed prop type: Invalid prop `component` of type `object` supplied to `Route`, expected `function`.
+    in Route
+    in Unknown
+    in Router (created by StaticRouter)
+    in StaticRouter
+    in Provider (created by App)
+    in App
+[2017-06-05 19:36:37.328] [ERROR] console - Warning: React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: object. Check the render method of `Route`.
+    in Route (created by Unknown)
+    in div (created by Unknown)
+    in Unknown
+    in Router (created by StaticRouter)
+    in StaticRouter
+    in Provider (created by App)
+    in App
+[2017-06-05 19:40:20.626] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:44:03.280] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:44:26.156] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:44:33.428] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:47:39.579] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:49:01.004] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:49:38.847] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:49:51.264] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:50:49.610] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:50:57.086] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:51:05.649] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:51:12.920] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:51:24.174] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:52:44.673] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:52:54.519] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:53:06.931] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:53:14.967] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:53:34.959] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:58:51.367] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 19:59:03.662] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:03.713] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:03.763] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:03.813] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:03.864] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:05.474] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:05.524] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:05.574] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:05.624] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:05.674] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:39.334] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:39.385] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:39.435] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:39.485] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 19:59:39.535] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\Tw9TRtQrAvIJzIkHACz56pUJzEvYQ79X.json'
+[2017-06-05 20:01:48.370] [ERROR] app - { Error: Not Found
+    at D:/www/test/express/app.js:56:13
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:635:15
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at session (D:\www\test\express\node_modules\express-session\index.js:454:7) status: 404 }
+[2017-06-05 20:01:48.416] [ERROR] app - { Error: Not Found
+    at D:/www/test/express/app.js:56:13
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:635:15
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at session (D:\www\test\express\node_modules\express-session\index.js:454:7) status: 404 }
+[2017-06-05 20:04:00.673] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\FjJOC2m9--vnkpa_6Zb-K4C8KcGIDnqG.json'
+[2017-06-05 20:04:00.723] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\FjJOC2m9--vnkpa_6Zb-K4C8KcGIDnqG.json'
+[2017-06-05 20:04:00.774] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\FjJOC2m9--vnkpa_6Zb-K4C8KcGIDnqG.json'
+[2017-06-05 20:04:00.825] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\FjJOC2m9--vnkpa_6Zb-K4C8KcGIDnqG.json'
+[2017-06-05 20:04:00.876] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\FjJOC2m9--vnkpa_6Zb-K4C8KcGIDnqG.json'
+[2017-06-05 20:05:51.192] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\ZHEADnMCw9nt5vHCTGni12yDhgJib5aA.json'
+[2017-06-05 20:05:51.243] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\ZHEADnMCw9nt5vHCTGni12yDhgJib5aA.json'
+[2017-06-05 20:05:51.293] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\ZHEADnMCw9nt5vHCTGni12yDhgJib5aA.json'
+[2017-06-05 20:05:51.344] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\ZHEADnMCw9nt5vHCTGni12yDhgJib5aA.json'
+[2017-06-05 20:05:51.394] [INFO] console - [session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open 'D:\www\test\express\sessions\ZHEADnMCw9nt5vHCTGni12yDhgJib5aA.json'
+[2017-06-05 20:12:28.086] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:13:15.236] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }

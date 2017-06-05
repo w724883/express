@@ -3,7 +3,9 @@ import { connect } from 'react-redux';
 import fetch from 'isomorphic-fetch';
 import { Link } from 'react-router-dom';
 import config from '../../config';
-
+if(typeof __CLIENT__ != 'undefined'){
+	require('./index.scss');
+}
 class Add extends React.Component{
 	constructor(props) {
 	  	super(props);
@@ -57,4 +59,7 @@ class Add extends React.Component{
 		);
 	}
 }
-export default connect((state) => ({state}))(Add);
+
+Add = connect((state) => ({state}))(Add);
+export default Add;
+module.exports = Add;

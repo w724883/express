@@ -28,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // session中间件配置
 app.use(session({
+  name: 'user',
   secret: 'session',
   resave: false,
   saveUninitialized: false,

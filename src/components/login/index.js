@@ -4,16 +4,16 @@ import fetch from 'isomorphic-fetch';
 import { Link } from 'react-router-dom';
 import config from '../../config';
 import url from 'url';
-
+if(typeof __CLIENT__ != 'undefined'){
+	require('./index.scss');
+	// require('../../../public/javascripts/libs/zepto.min.js');
+}
 class Login extends React.Component{
 	constructor(props) {
 	  	super(props);
 	  	this.state = {
 	  		error:''
 	  	};
-	  	require.ensure([], function(require){
-	  	    require('./b.js');
-	  	});
 	}
 	handleSubmit(e){
 		e.persist();
@@ -62,4 +62,7 @@ class Login extends React.Component{
 		);
 	}
 }
-export default connect((state) => ({state}))(Login);
+
+Login = connect((state) => ({state}))(Login);
+export default Login;
+module.exports = Login;

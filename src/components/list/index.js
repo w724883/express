@@ -1,7 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
-
+if(typeof __CLIENT__ != 'undefined'){
+	require('./index.scss');
+}
 class List extends React.Component{
 	constructor(props) {
 		super(props);
@@ -51,5 +53,6 @@ class List extends React.Component{
 		) : null;
 	}
 }
-
-export default connect((state) => ({state}))(List);
+List = connect((state) => ({state}))(List);
+export default List;
+module.exports = List;

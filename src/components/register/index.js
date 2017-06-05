@@ -2,6 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import config from '../../config';
+if(typeof __CLIENT__ != 'undefined'){
+	require('./index.scss');
+}
 class Register extends React.Component{
 	constructor(props) {
 	  	super(props);
@@ -55,4 +58,6 @@ class Register extends React.Component{
 		);
 	}
 }
-export default connect((state) => ({state}))(Register);
+Register = connect((state) => ({state}))(Register);
+export default Register;
+module.exports = Register;

@@ -121,7 +121,13 @@ router.post('/add', function(req, res, next) {
 });
 router.get('/logout', function(req, res, next) {
 	req.session.destroy(function(err) {
-		res.redirect('/');
+		if(err){
+			console.log(err);
+		}else{
+			res.clearCookie('user');
+			res.redirect('/');
+		}
+		
 	});
 });
 // list

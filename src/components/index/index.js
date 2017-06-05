@@ -39,12 +39,12 @@ class Index extends React.Component{
 		return (
 			<div className="index">
 				{
-					session.user ? <span>你好 {session.user.username}<a href="/logout">退出</a></span> : <p><Link to="/login">登录</Link><Link to="/register">注册</Link></p>
+					session.username ? <span>你好 {session.username}<a href="/logout">退出</a></span> : <p><Link to="/login">登录</Link><Link to="/register">注册</Link></p>
 				}
 
 				<Search history={this.props.history} />
 				{
-					session.user ? <Link to="/add">添加</Link> : null
+					session.username ? <Link to="/add">添加</Link> : null
 				}
 				<List />
 			</div>
