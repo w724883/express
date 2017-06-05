@@ -40,20 +40,20 @@ var config = {
       '__CLIENT__': true
     }),
     
-    new webpack.optimize.UglifyJsPlugin({
-        compress: {
-            warnings: false
-        },
-        output: {
-          comments: false
-        }
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //     compress: {
+    //         warnings: false
+    //     },
+    //     output: {
+    //       comments: false
+    //     }
+    // }),
 
-    new webpack.DefinePlugin({
-      'process.env': {
-        'NODE_ENV': '"production"'
-      }
-    })
+    // new webpack.DefinePlugin({
+    //   'process.env': {
+    //     'NODE_ENV': '"production"'
+    //   }
+    // })
   ],
   module: {
       //加载器配置

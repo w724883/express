@@ -436,3 +436,30 @@
 [2017-06-05 20:13:15.236] [INFO] console - { list: {},
   session: {},
   routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:23:06.073] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:31:14.830] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:45:54.719] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:46:06.012] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:46:15.773] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:53:46.941] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 20:54:07.949] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 20:54:27.955] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 20:54:47.962] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 20:55:07.971] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 20:55:27.982] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 20:55:32.982] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 22:41:35.508] [INFO] console - [session-file-store] Deleting expired sessions

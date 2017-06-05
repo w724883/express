@@ -32,9 +32,11 @@ app.use(session({
   secret: 'session',
   resave: false,
   saveUninitialized: false,
-  store: new FileStore(),
+  store: new FileStore({
+    reapInterval : 3600
+  }),
   cookie: {
-    maxAge: 100 * 1000
+    maxAge: 3600 * 1000
   }
 }));
 
