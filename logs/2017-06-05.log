@@ -463,3 +463,17 @@
   session: {},
   routing: { locationBeforeTransitions: null } }
 [2017-06-05 22:41:35.508] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-05 23:24:14.096] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 23:25:21.682] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 23:38:59.983] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 23:39:01.282] [INFO] console - Hmac { _handle: {}, _options: undefined }
+[2017-06-05 23:43:07.961] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-05 23:43:08.812] [INFO] console - 1c8c18eb901b6cb0a013610e66af1303965bf593

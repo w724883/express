@@ -1,0 +1,170 @@
+[2017-06-06 00:02:36.009] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:02:36.850] [INFO] console - 1c8c18eb901b6cb0a013610e66af1303965bf593
+[2017-06-06 00:03:58.655] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:06:56.843] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:08:15.086] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:09:34.320] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:10:14.521] [ERROR] app - TypeError: Data must be a string or a buffer
+    at TypeError (native)
+    at Hmac.Hash.update (crypto.js:67:16)
+    at UserDAO.find (D:/www/test/express/models/user.js:14:7)
+    at UserDAO.save (D:/www/test/express/models/user.js:21:7)
+    at D:/www/test/express/routes/index.js:82:8
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+[2017-06-06 00:11:52.436] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:13:12.424] [ERROR] app - TypeError: HmacUpdate fail
+    at TypeError (native)
+    at Hmac.Hash.update (crypto.js:67:16)
+    at UserDAO.find (D:/www/test/express/models/user.js:14:7)
+    at D:/www/test/express/routes/index.js:44:8
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+[2017-06-06 00:14:49.166] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:14:53.991] [INFO] console - 123
+[2017-06-06 00:15:12.153] [INFO] console - 123
+[2017-06-06 00:15:12.158] [ERROR] app - TypeError: HmacUpdate fail
+    at TypeError (native)
+    at Hmac.Hash.update (crypto.js:67:16)
+    at UserDAO.find (D:/www/test/express/models/user.js:15:7)
+    at D:/www/test/express/routes/index.js:44:8
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+[2017-06-06 00:16:25.812] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:16:29.773] [INFO] console - a3c024f01cccb3b63457d848b0d2f89c1f744a3d
+[2017-06-06 00:17:01.596] [ERROR] app - TypeError: HmacUpdate fail
+    at TypeError (native)
+    at Hmac.Hash.update (crypto.js:67:16)
+    at UserDAO.find (D:/www/test/express/models/user.js:14:7)
+    at D:/www/test/express/routes/index.js:44:8
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+[2017-06-06 00:19:38.909] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 00:20:01.026] [ERROR] app - TypeError: HmacUpdate fail
+    at TypeError (native)
+    at Hmac.Hash.update (crypto.js:67:16)
+    at UserDAO.find (D:/www/test/express/models/user.js:14:7)
+    at D:/www/test/express/routes/index.js:44:8
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\www\test\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\www\test\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\www\test\express\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\www\test\express\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\www\test\express\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\www\test\express\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\www\test\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\www\test\express\node_modules\express\lib\router\index.js:317:13)
+    at D:\www\test\express\node_modules\express\lib\router\index.js:284:7
+[2017-06-06 00:26:38.210] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:34:29.545] [INFO] console - [session-file-store] Deleting expired sessions
+[2017-06-06 10:37:28.555] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:37:41.238] [INFO] console - a3c024f01cccb3b63457d848b0d2f89c1f744a3d
+[2017-06-06 10:38:56.798] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:39:00.189] [INFO] console - a3c024f01cccb3b63457d848b0d2f89c1f744a3d
+[2017-06-06 10:39:00.193] [INFO] console - b03e0c62fe867fb3722686758a5e0a24d0874a5e
+[2017-06-06 10:39:41.626] [INFO] console - 16bd2ff3023cbde07c2d90b5341540c5b876170e
+[2017-06-06 10:39:41.630] [INFO] console - b03e0c62fe867fb3722686758a5e0a24d0874a5e
+[2017-06-06 10:47:16.014] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:50:23.173] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:50:38.360] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:50:53.086] [INFO] console - a3c024f01cccb3b63457d848b0d2f89c1f744a3d
+[2017-06-06 10:50:53.089] [INFO] console - b03e0c62fe867fb3722686758a5e0a24d0874a5e
+[2017-06-06 10:51:01.932] [INFO] console - 79f8896c7bf5dcb646099459aa01d6fcebe8a3de
+[2017-06-06 10:51:01.934] [INFO] console - b03e0c62fe867fb3722686758a5e0a24d0874a5e
+[2017-06-06 10:56:01.293] [INFO] console - a3c024f01cccb3b63457d848b0d2f89c1f744a3d
+[2017-06-06 10:57:14.511] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:58:04.091] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:59:25.604] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 10:59:33.818] [INFO] console - null
+[2017-06-06 11:01:49.377] [INFO] console - null
+[2017-06-06 11:03:14.958] [INFO] console - null
+[2017-06-06 11:04:49.991] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 11:05:00.574] [INFO] console - null
+[2017-06-06 11:05:24.073] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 11:10:02.812] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }
+[2017-06-06 11:10:12.485] [INFO] console - { list: {},
+  session: {},
+  routing: { locationBeforeTransitions: null } }

@@ -41,13 +41,16 @@ router.post('/login', function(req, res, next) {
 	var username = req.body.username;
 	var password = req.body.password;
 	if(username.trim() && password.trim()){
-		User.find(username,function(err, result){
+		User.find(req.body,function(err, result){
 	  		if(err){
 				logger('login').error(err);
 				res.send({'error':1004,'message':'登录失败'});
 	  		}else{
-	  			if(result){
-	  				if(password === result.password){
+	  			if(result === null){
+	  				res.send({'error':1002,'message':'您未注册'});
+	  				
+	  			}else{
+	  				if(result){
 	  					req.session.user = {
 	  						username,
 	  					};
@@ -56,8 +59,6 @@ router.post('/login', function(req, res, next) {
 	  				}else{
 	  					res.send({'error':1001,'message':'用户名或密码错误'});
 	  				}
-	  			}else{
-	  				res.send({'error':1002,'message':'您未注册'});
 	  			}
 	  		}			
 		});
@@ -83,13 +84,14 @@ router.post('/register', function(req, res, next) {
 				res.send({'error':1004,'message':'注册失败'});
 				logger('register').error(err);
 			} else {
-				if(result){
-					res.send({'error':1006,'message':'用户名已存在'});
-				}else{
+				if(result === null){
 					req.session.user = {
 						username,
 					};
 					res.send({'error':0,'message':'success'});
+				}else{
+					res.send({'error':1006,'message':'用户名已存在'});
+					
 				}
 				
 			}
